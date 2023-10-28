@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Israel Chaves Arbaiza / Homepage"
+title                    : "israchaves / homepage"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Israel Chaves Arbaiza"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Israel Chaves Arbaiza"
-  avatar           : "profile.png"
+  avatar           : "isra.png"
   bio              : "Mechatronics engineer | Mechanical engineering's lecturer at University of Costa Rica (UCR)| Robotics researcher at Autonomous Robots and Cognitive Systems Laboratory (ARCOS-Lab at INII, UCR)"
   location         : "San José, Costa Rica"
   employer         :
