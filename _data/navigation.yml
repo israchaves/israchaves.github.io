@@ -10,7 +10,8 @@ main:
     url: /teaching/    
     
   - title: "UCR"
-    url: /ucr/
+    url: /ucr/clases_ucr.html
+    #url: /ucr/
         
   - title: "Blog Posts"
     url: /year-archive/
