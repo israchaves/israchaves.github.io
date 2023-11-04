@@ -4,7 +4,7 @@ collection: teaching
 type: "Curso corto"
 permalink: /teaching/taller_fabricacion_robots
 venue: "Universidad Cenfotec, Escuela de Sistemas Inteligentes"
-date: 2014-01-01
+date: 2023-01-01
 location: "San José, Costa Rica"
 ---
 
