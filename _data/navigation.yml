@@ -1,14 +1,15 @@
 # main links links
 main:
-  #- title: "Publications"
-  #  url: /publications/
 
   #- title: "Talks"
   #  url: /talks/
   - title: "University of Costa Rica"
     url: /ucr/
 
-  - title: "Teaching"
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Teaching Resources"
     url: /teaching/    
     
 
