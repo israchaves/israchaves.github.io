@@ -5,12 +5,13 @@ main:
 
   #- title: "Talks"
   #  url: /talks/
+  - title: "University of Costa Rica"
+    url: /ucr/
 
   - title: "Teaching"
     url: /teaching/    
     
-  - title: "University of Costa Rica"
-    url: /ucr/
+
   #  url: /ucr/
         
   #- title: "Blog Posts"
