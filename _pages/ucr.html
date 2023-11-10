@@ -7,8 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-<p style="text-decoration:underline;"><a href="/ucr/clase6-555
-.html">Presentaciones de mis clases de la UCR</a></p>
+{% for post in site.teaching reversed %}
+{% include archive-single.html %}
+{% endfor %}
+
+
 
 
 <!--{% for post in site.ucr %}-->

@@ -9,8 +9,8 @@ main:
   - title: "Teaching"
     url: /teaching/    
     
-  #- title: "UCR"
-    #url: /ucr/clases_ucr.html
+  - title: "UCR"
+    url: /ucr/
   #  url: /ucr/
         
   #- title: "Blog Posts"
