@@ -1,10 +1,10 @@
 ---
-title: "Tutorials and resources about Electronics"
+title: "Tutorials and resources about Mechanics"
 collection: teaching
-type: "Blog"
-permalink: /teaching/electronics_resources
+type: "Tutorials"
+permalink: /teaching/mechanical_resources
 venue: "Teaching Resources"
-date: 2023-01-02
+date: 2023-02-02
 location: "San José, Costa Rica"
 ---
 
