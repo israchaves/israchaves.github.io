@@ -8,4 +8,4 @@ date: 2023-01-02
 location: "San José, Costa Rica"
 ---
 
-This section contains useful tutorials and stuff about electronics, circuits, soldering, simulation, etc. [Electronics](http://simp.ly/p/4RcLYK)
+This section contains useful tutorials and stuff about electronics, circuits, soldering, simulation, etc. [Resources for electronics](http://simp.ly/p/4RcLYK)
