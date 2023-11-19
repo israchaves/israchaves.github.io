@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><style>
+.reveal section img { background:none; border:none; box-shadow:none; }
+
+
+#left {
+    margin: 10px 0 15px 20px;
+    text-align: center;
+    float: left;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+#right {
+    margin: 10px 0 15px 0;
+    float: right;
+    text-align: center;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+</style>
+
+[//]: # (Ejemplo de columnas izquierda y derecha)
+
+[//]: # ()
+[//]: # (<div id="left">)
+
+[//]: # ()
+[//]: # (<font size=5>)
+
+[//]: # ()
+[//]: # (<p style='text-align: justify;'>)
+
+[//]: # ()
+[//]: # (</p>)
+
+[//]: # (</font>)
+
+[//]: # ()
+[//]: # (</div>)
+
+[//]: # ()
+[//]: # (<div id="right">)
+
+[//]: # ()
+[//]: # ()
+[//]: # (</div>)
+
+# Temas relacionados al dibujo en ingeniería
+
+
+<span style="font-size: 20.0pt; "> **Profesor:** Ing. Israel Chaves Arbaiza </span>
+
+<span style="font-size: 20.0pt;"> **Curso**: Dibujo II  </span>
+
+
+<img align="left" width="350" height="300" src="images/logo-ucr.png">
+
+<img align="right" width="400" height="200" src="images/logoEIM.png">
+</script></section><section  data-markdown><script type="text/template">## SolidWorks
+
+<span style="font-size: 22.0pt; ">
+
+* [XpertCAD](https://store.xpertme.com): es un sitio con planes accesibles para aprender Solid
+* [Certificaciones de SolidWorks](https://www.solidworks.com/es/solidworks-certification-program): SolidWorks tiene diferentes certificaciones en diferentes áreas, las más básicas son la de **CSWA** y la **CSWP**
+* En Udemy, hay buenos cursos para cada una de estas dos certificaciones básicas [CSWA](https://www.udemy.com/course/solidwokrs-go-from-nothing-to-certified-associate-level/) y [CSWP](https://www.udemy.com/course/solidworks_pro/). **Aparte, se debe pagar la certificación**
+
+</span>
+
+</script></section><section  data-markdown><script type="text/template">## [3Dconnexion](https://3dconnexion.com/us/)
+
+
+<span style="font-size: 22.0pt; ">
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/TYqSljkoWh8?enablejsapi=1" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### [Generative Design (Fusion 360)](https://www.autodesk.com/solutions/generative-design/manufacturing)
+
+
+<span style="font-size: 22.0pt; ">
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/jvSMCkjTYLE?enablejsapi=1" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">## [OnShape](https://www.onshape.com)
+
+
+<span style="font-size: 22.0pt; ">
+
+<iframe width="800" height="600" src="https://fast.wistia.net/embed/iframe/2bm987ug4o" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</span></script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
