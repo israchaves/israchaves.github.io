@@ -56,6 +56,8 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
+mastodon:
+  username               : "mastodon.social/@israchaves"
 twitter:
   username               : &twitter
 facebook:
@@ -86,8 +88,8 @@ author:
   location         : "San José, Costa Rica"
   employer         : "University of Costa Rica"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "isracharbaiza@gmail.com"
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=a9TAEUgAAAAJ"
+  email            : "israel.chaves@ucr.ac.cr"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -97,6 +99,7 @@ author:
   facebook         :
   foursquare       :
   github           : "israchaves"
+  gitlab           : "israchaves"
   google_plus      :
   keybase          :
   instagram        : #"israchaves01"
