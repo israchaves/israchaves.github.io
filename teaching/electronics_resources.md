@@ -1,5 +1,5 @@
 ---
-title: "Tutorials and resources about Electronics"
+title: "About Electronics"
 collection: teaching
 type: "Blog"
 permalink: /teaching/electronics_resources
