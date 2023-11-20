@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><style>
+.reveal section img { background:none; border:none; box-shadow:none; }
+
+
+#left {
+    margin: 10px 0 15px 20px;
+    text-align: center;
+    float: left;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+#right {
+    margin: 10px 0 15px 0;
+    float: right;
+    text-align: center;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+</style>
+
+
+
+# Unidad 8: Automatización
+
+
+<span style="font-size: 20.0pt; "> **Profesor:** Ing. Israel Chaves Arbaiza </span>
+
+<span style="font-size: 20.0pt;"> **Curso**: Electrónica Básica para Ing. Mecánica  </span>
+
+
+[//]: # (<img align="left" width="500" height="300" src="media/logo-ucr.png">)
+
+[//]: # ()
+[//]: # (<img align="right" width="350" height="100" src="media/logoEIM.png">)
+
+
+<img align="left" width="500" height="300" src="media/logo-ucr.png">
+
+<img align="right" width="350" height="100" src="media/logoEIM.png">
+</script></section><section  data-markdown><script type="text/template">## Agenda
+
+<span style="font-size: 22.0pt; ">
+
+* Algebra booleana
+* Operaciones lógicas
+* Tabla de verdad
+* Operaciones OR, AND y NOT
+* Operaciones derivadas
+* Teoremas booleanos
+* Implementación de circuitos lógicos
+* Circuitos integrados
+* Mapa de Karnaugh
+* Ejemplo de control
+
+</span>
+
+</script></section><section  data-markdown><script type="text/template">### Historia
+
+<span style="font-size: 20.0pt; ">
+
+<div id="left">
+
+<font size=5,8>
+
+<p style='text-align: justify;'>
+
+* El control automático, tiene su primer antecedente en el Regulador de Watt, en el 1774
+* El primer intento de reemplazar al hombre en las tareas de control se realizó a través de elementos mecánicos
+* Mecanismos como las válvulas de control de nivel a flotante permitieron al hombre dedicarse a estas tareas
+
+</p>
+</font>
+
+</div>
+
+<div id="right">
+
+<iframe width="500" height="500" src="https://i.gifer.com/7TB8.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
+</span>
+</script></section><section  data-markdown><script type="text/template">### ¿Qué es un PLC?
+
+<span style="font-size: 20.0pt; ">
+
+*  Programable Logic Controller (Controlador Lógico Programable) es un dispositivo digital electrónico con una memoria programable para el almacenamiento de instrucciones 
+* Implementa funciones lógicas, secuenciales, temporizadas, de conteo y aritméticas
+* Utilizados en ambientes industriales donde la decisión y la acción deben ser tomadas en tiempo real
+* Son tanto controles lógicos como secuenciales o ambos a la vez
+
+
+<center><img width="650" height="350" src="media/plc.webp"></center>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Funcionamiento de un PLC
+
+<span style="font-size: 20.0pt; ">
+
+Consta básicamente de un CPU, espacios de memoria y circuitos de entrada y salida de señales. Internamente, el PLC corre 1 programa a la vez, de forma cı́clica. Este ciclo consta de los siguientes 3 pasos
+
+<center><img alt="centered image" width="350" height="450" src="media/plc_ciclo.png"></center>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Funcionamiento de un PLC
+
+<span style="font-size: 20.0pt; ">
+
+* En el primer paso, el PLC toma los valores de cada una de las entradas (sensores) y los almacena en memoria
+* En el segundo paso, ejecuta el programa (una instrucción a la vez) donde dependiendo de la lógica indicada, y de los valores de las entradas almacenados; decide y calcula qué salidas activar ó apagar almacenando estos resultados en los espacios de memoria destinados para las salidas
+* En el tercer paso, es donde luego de los calculos, el PLC toma los valores almacenados para las salidas, y activa ó apaga las salidas (actuadores) según corresponda.
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Características
+
+<span style="font-size: 20.0pt; ">
+
+
+<div id="left">
+
+<font size=6>
+
+<p style='text-align: justify;'>
+
+* Espacios reducidos
+* Procesos de producción periódicamente cambiantes
+* Procesos secuenciales
+* Maquinaria de procesos variables
+* Instalaciones de procesos complejos y amplios
+* Chequeo de programación centralizada de las partes del
+  proceso
+
+</p>
+</font>
+
+</div>
+
+<div id="right">
+
+<center><img alt="centered image" width="450" height="450" src="media/plc_tablero.jpeg"></center>
+
+</div>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Ventajas
+
+<span style="font-size: 22.0pt; ">
+
+* Menor tiempo empleado en la elaboración de proyectos 
+* La lista de materiales queda sensiblemente reducida y economı́a del presupuesto 
+* Posibilidad de introducir modificaciones sin cambiar el cableado ni añadir aparatos 
+* Mı́nimo espacio del tablero 
+* Economı́a de mantenimiento 
+* Posibilidad de gobernar varias máquinas con un mismo autómata 
+* Menor tiempo para la puesta en funcionamiento 
+* Si por alguna razón la máquina queda fuera de servicio, el autómata sigue siendo útil
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Desventajas
+
+<span style="font-size: 22.0pt; ">
+
+* Requiere un programador (alguien que sepa) para el PLC
+* Costo inicial elevado
+* Tener cuidado con *Casarse con una marca* 
+* Sensores especializados requieren módulos aparte
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Estructura básica
+
+<span style="font-size: 20.0pt; ">
+
+<center><iframe width="900" height="600" src="https://learnchannel-tv.com/wp-content/uploads/2022/06/PLC-Programable-Logic-Control-Structure.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Estructura básica
+
+<span style="font-size: 20.0pt; ">
+
+<center><img alt="centered image" width="800" height="550" src="media/plc_estructura.png"></center>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Estructura básica: Procesador
+
+<span style="font-size: 18.0pt; ">
+
+
+<div id="left">
+
+<font size=5>
+
+<p style='text-align: justify;'>
+
+* Cerebro del sistema
+* Ejecutar el programa realizado por el usuario 
+* Administración de la comunicación 
+* Ejecutar los programas de autodiagnósticos 
+
+El procesador necesita un programa escrito por el fabricante, llamado sistema operativo, comúnmente no accesible por el
+  usuario, grabado en una memoria ROM.
+
+</p>
+</font>
+
+</div>
+
+<div id="right">
+
+<img align="right" width="600" height="400" src="https://giftaoktavia.files.wordpress.com/2014/05/plc-system.jpg">
+
+</div>
+</span>
+</script></section><section  data-markdown><script type="text/template">### Estructura básica: Memoria
+
+<span style="font-size: 18.0pt; ">
+
+Capaz de almacenar y retirar información. Almacenan:
+
+
+  **Datos del proceso:**
+
+* Señales de entradas y salidas 
+* Variables internas, de bit y de palabra. 
+* Datos alfanuméricos y constantes.
+  
+ **Datos del control:**
+
+* Instrucciones de usuario, programa
+* Configuración del autómata.
+
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Estructura básica: Memoria de datos de proceso
+
+<span style="font-size: 18.0pt; ">
+
+Capaz de guardar información originada en el microprocesador incluyendo: tiempos, unidades de conteo y relés internos
+
+<center><img alt="centered image" width="800" height="420" src="media/plc_data.png"></center>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Estructura básica: Memoria de datos de control
+
+<span style="font-size: 18.0pt; ">
+
+Utilizada para guardar el programa
+
+<center><img alt="centered image" width="800" height="420" src="media/plc_control.png"></center>
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### PLC: Señales digitales
+
+![](media/plc_digital.png)
+</script></section><section  data-markdown><script type="text/template">### PLC: Señales analógicas
+
+![](media/plc_analogica.png)
+</script></section><section  data-markdown><script type="text/template">### PLC: tipos
+
+<center><img alt="centered image" width="800" height="600" src="media/plc_tipos.png"></center>
+</script></section><section  data-markdown><script type="text/template">### Diagrama escalera (Ladder)
+
+<span style="font-size: 18.0pt; ">
+
+El Diagrama de Escalera, utilizado en automatización industrial para circuitos lógicos de control. Es uno de los métodos básicos y más utilizados para programar PLCs, ya que es una programación mucho más visual que los lenguajes de texto como C, BASIC, y otros.
+
+Además, en los años 70’s cuando se incorporaron los PLC, ya se acostumbraba trabajar con diagramas de conexión de relés, los cuales son parecidos a un diagrama de escalera.
+
+</span>
+</script></section><section  data-markdown><script type="text/template">### Ladder
+
+<center><img alt="centered image" width="600" height="600" src="media/plc_ladder1.png"></center>
+</script></section><section  data-markdown><script type="text/template">### Ladder
+
+<center><img alt="centered image" width="700" height="600" src="media/plc_ladder2.png"></center>
+</script></section><section  data-markdown><script type="text/template">### Ladder: NOT
+
+<center><img alt="centered image" width="800" height="600" src="media/plc_ladder3.png"></center>
+</script></section><section  data-markdown><script type="text/template">### Ladder: AND
+
+<center><img alt="centered image" width="700" height="600" src="media/plc_ladder4.png"></center>
+</script></section><section  data-markdown><script type="text/template">### Ladder: OR
+
+<center><img alt="centered image" width="800" height="600" src="media/plc_ladder5.png"></center>
+</script></section><section  data-markdown><script type="text/template">### Ladder: ejemplo
+
+<center><iframe width="1000" height="600" src="https://www.plcacademy.com/wp-content/uploads/2019/02/start-stop-motor-ladder-logic.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+</script></section><section  data-markdown><script type="text/template">### Ladder: ejemplo 2
+
+<center><iframe width="1000" height="600" src="https://accautomation.ca/wp-content/uploads/2015/08/Paint-Spraying.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
