@@ -15,7 +15,10 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><style>
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 
@@ -77,7 +80,9 @@
 <img align="left" width="350" height="300" src="media/logo-ucr.png">
 
 <img align="right" width="300" height="180" src="media/logoEIM.png">
-</script></section><section  data-markdown><script type="text/template">## SolidWorks
+
+---
+## SolidWorks
 
 <span style="font-size: 22.0pt; ">
 
@@ -87,7 +92,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">## [3Dconnexion](https://3dconnexion.com/us/)
+
+---
+## [3Dconnexion](https://3dconnexion.com/us/)
 
 
 <span style="font-size: 22.0pt; ">
@@ -95,7 +102,9 @@
 <iframe width="800" height="600" src="https://www.youtube.com/embed/TYqSljkoWh8?enablejsapi=1" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### [Generative Design (Fusion 360)](https://www.autodesk.com/solutions/generative-design/manufacturing)
+
+---
+### [Generative Design (Fusion 360)](https://www.autodesk.com/solutions/generative-design/manufacturing)
 
 
 <span style="font-size: 22.0pt; ">
@@ -103,14 +112,19 @@
 <iframe width="800" height="600" src="https://www.youtube.com/embed/jvSMCkjTYLE?enablejsapi=1" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## [OnShape](https://www.onshape.com)
+
+---
+## [OnShape](https://www.onshape.com)
 
 
 <span style="font-size: 22.0pt; ">
 
 <iframe width="800" height="600" src="https://fast.wistia.net/embed/iframe/2bm987ug4o" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</span></script></section></div>
+</span>
+          </textarea>
+        </section>
+      </div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -154,7 +168,7 @@
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
     </script>
 
 

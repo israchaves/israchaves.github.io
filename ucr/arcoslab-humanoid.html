@@ -15,7 +15,10 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><style>
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 
@@ -53,7 +56,9 @@
 <br />
 
 <img width="950" height="110" src="media/all_logos.png">
-</script></section><section  data-markdown><script type="text/template">## 
+
+---
+## 
 
 <span style="font-size: 22.0pt; ">
 
@@ -61,7 +66,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">## Problemática
+
+---
+## Problemática
 
 <span style="font-size: 25.0pt; ">
 
@@ -73,7 +80,9 @@
 * Asistir a las personas en sus tareas cotidianas
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## ¿Qué existe actualmente?
+
+---
+## ¿Qué existe actualmente?
 
 <span style="font-size: 22.0pt; ">
 
@@ -83,7 +92,9 @@
 </span>
 
 
-</script></section><section  data-markdown><script type="text/template">## Rollin' Justin robot de la DLR, Alemania
+
+---
+## Rollin' Justin robot de la DLR, Alemania
 
 <span style="font-size: 20.0pt; ">
 
@@ -92,7 +103,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">## Boxy robot del IAI, Alemania
+
+---
+## Boxy robot del IAI, Alemania
 
 <span style="font-size: 20.0pt; ">
 
@@ -101,7 +114,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">## Escenarios de nuestro robot
+
+---
+## Escenarios de nuestro robot
 
 <span style="font-size: 22.0pt; ">
 <br />
@@ -112,7 +127,9 @@
 <img  width="900" height="260" src="media/scenarios.png">
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Proceso de diseño del humanoide
+
+---
+## Proceso de diseño del humanoide
 
 <span style="font-size: 22.0pt; ">
 
@@ -121,7 +138,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">## Plataforma móvil omnidireccional
+
+---
+## Plataforma móvil omnidireccional
 
 <span style="font-size: 20.0pt; ">
 
@@ -134,7 +153,9 @@
 <img align="right" width="450" height="400" src="media/arcosbot_pcbs.jpg">
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Torso 
+
+---
+## Torso 
 
 <span style="font-size: 20.0pt; ">
 
@@ -147,7 +168,9 @@
 <img align="right" width="450" height="400" src="media/robot_with_goals.png">
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Brazos y manos
+
+---
+## Brazos y manos
 
 <span style="font-size: 20.0pt; ">
 
@@ -160,7 +183,9 @@
 <img align="right" width="300" height="300" src="media/hand_clean.png">
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Control suave
+
+---
+## Control suave
 
 <span style="font-size: 20.0pt; ">
 
@@ -168,7 +193,9 @@
 
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Cuello y cabeza
+
+---
+## Cuello y cabeza
 
 <span style="font-size: 20.0pt; ">
 
@@ -183,7 +210,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">## Cara emocional
+
+---
+## Cara emocional
 
 <span style="font-size: 20.0pt; ">
 
@@ -197,7 +226,9 @@
 
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Resultados 
+
+---
+## Resultados 
 
 <span style="font-size: 20.0pt; ">
 
@@ -206,7 +237,9 @@
 <iframe  width="800" height="400" src="images/pushing.mp4" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Trabajo actual y futuro
+
+---
+## Trabajo actual y futuro
 
 <span style="font-size: 20.0pt; ">
 
@@ -221,7 +254,9 @@
 <img align="right" width="500" height="350" src="media/cocina_inteligente.png">
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## 
+
+---
+## 
 
 <span style="font-size: 20.0pt; ">
 
@@ -236,7 +271,10 @@
 
 <img  width="600" height="200" src="media/arcos_logo.png">
 
-</span></script></section></div>
+</span>
+          </textarea>
+        </section>
+      </div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -280,7 +318,7 @@
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
     </script>
 
 

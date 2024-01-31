@@ -15,7 +15,10 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><style>
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 
@@ -59,7 +62,9 @@
 <img align="left" width="500" height="300" src="media/logo-ucr.png">
 
 <img align="right" width="350" height="100" src="media/logoEIM.png">
-</script></section><section  data-markdown><script type="text/template">## Agenda
+
+---
+## Agenda
 
 <span style="font-size: 22.0pt; ">
 
@@ -73,7 +78,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">### Historia
+
+---
+### Historia
 
 <span style="font-size: 20.0pt; ">
 
@@ -98,7 +105,9 @@
 
 </div>
 </span>
-</script></section><section  data-markdown><script type="text/template">### ¿Qué es un PLC?
+
+---
+### ¿Qué es un PLC?
 
 <span style="font-size: 20.0pt; ">
 
@@ -111,7 +120,9 @@
 <center><img width="650" height="350" src="media/plc.webp"></center>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Funcionamiento de un PLC
+
+---
+### Funcionamiento de un PLC
 
 <span style="font-size: 20.0pt; ">
 
@@ -120,7 +131,9 @@ Consta básicamente de un CPU, espacios de memoria y circuitos de entrada y sali
 <center><img alt="centered image" width="350" height="450" src="media/plc_ciclo.png"></center>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Funcionamiento de un PLC
+
+---
+### Funcionamiento de un PLC
 
 <span style="font-size: 20.0pt; ">
 
@@ -129,7 +142,9 @@ Consta básicamente de un CPU, espacios de memoria y circuitos de entrada y sali
 * En el tercer paso, es donde luego de los calculos, el PLC toma los valores almacenados para las salidas, y activa ó apaga las salidas (actuadores) según corresponda.
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Características
+
+---
+### Características
 
 <span style="font-size: 20.0pt; ">
 
@@ -160,7 +175,9 @@ Consta básicamente de un CPU, espacios de memoria y circuitos de entrada y sali
 </div>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Ventajas
+
+---
+### Ventajas
 
 <span style="font-size: 22.0pt; ">
 
@@ -174,7 +191,9 @@ Consta básicamente de un CPU, espacios de memoria y circuitos de entrada y sali
 * Si por alguna razón la máquina queda fuera de servicio, el autómata sigue siendo útil
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Desventajas
+
+---
+### Desventajas
 
 <span style="font-size: 22.0pt; ">
 
@@ -184,21 +203,27 @@ Consta básicamente de un CPU, espacios de memoria y circuitos de entrada y sali
 * Sensores especializados requieren módulos aparte
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Estructura básica
+
+---
+### Estructura básica
 
 <span style="font-size: 20.0pt; ">
 
 <center><iframe width="900" height="600" src="https://learnchannel-tv.com/wp-content/uploads/2022/06/PLC-Programable-Logic-Control-Structure.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Estructura básica
+
+---
+### Estructura básica
 
 <span style="font-size: 20.0pt; ">
 
 <center><img alt="centered image" width="800" height="550" src="media/plc_estructura.png"></center>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Estructura básica: Procesador
+
+---
+### Estructura básica: Procesador
 
 <span style="font-size: 18.0pt; ">
 
@@ -228,7 +253,9 @@ El procesador necesita un programa escrito por el fabricante, llamado sistema op
 
 </div>
 </span>
-</script></section><section  data-markdown><script type="text/template">### Estructura básica: Memoria
+
+---
+### Estructura básica: Memoria
 
 <span style="font-size: 18.0pt; ">
 
@@ -248,7 +275,9 @@ Capaz de almacenar y retirar información. Almacenan:
 
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Estructura básica: Memoria de datos de proceso
+
+---
+### Estructura básica: Memoria de datos de proceso
 
 <span style="font-size: 18.0pt; ">
 
@@ -257,7 +286,9 @@ Capaz de guardar información originada en el microprocesador incluyendo: tiempo
 <center><img alt="centered image" width="800" height="420" src="media/plc_data.png"></center>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Estructura básica: Memoria de datos de control
+
+---
+### Estructura básica: Memoria de datos de control
 
 <span style="font-size: 18.0pt; ">
 
@@ -266,16 +297,24 @@ Utilizada para guardar el programa
 <center><img alt="centered image" width="800" height="420" src="media/plc_control.png"></center>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### PLC: Señales digitales
+
+---
+### PLC: Señales digitales
 
 ![](media/plc_digital.png)
-</script></section><section  data-markdown><script type="text/template">### PLC: Señales analógicas
+
+---
+### PLC: Señales analógicas
 
 ![](media/plc_analogica.png)
-</script></section><section  data-markdown><script type="text/template">### PLC: tipos
+
+---
+### PLC: tipos
 
 <center><img alt="centered image" width="800" height="600" src="media/plc_tipos.png"></center>
-</script></section><section  data-markdown><script type="text/template">### Diagrama escalera (Ladder)
+
+---
+### Diagrama escalera (Ladder)
 
 <span style="font-size: 18.0pt; ">
 
@@ -284,27 +323,44 @@ El Diagrama de Escalera, utilizado en automatización industrial para circuitos 
 Además, en los años 70’s cuando se incorporaron los PLC, ya se acostumbraba trabajar con diagramas de conexión de relés, los cuales son parecidos a un diagrama de escalera.
 
 </span>
-</script></section><section  data-markdown><script type="text/template">### Ladder
+
+---
+### Ladder
 
 <center><img alt="centered image" width="600" height="600" src="media/plc_ladder1.png"></center>
-</script></section><section  data-markdown><script type="text/template">### Ladder
+
+---
+### Ladder
 
 <center><img alt="centered image" width="700" height="600" src="media/plc_ladder2.png"></center>
-</script></section><section  data-markdown><script type="text/template">### Ladder: NOT
+
+---
+### Ladder: NOT
 
 <center><img alt="centered image" width="800" height="600" src="media/plc_ladder3.png"></center>
-</script></section><section  data-markdown><script type="text/template">### Ladder: AND
+
+---
+### Ladder: AND
 
 <center><img alt="centered image" width="700" height="600" src="media/plc_ladder4.png"></center>
-</script></section><section  data-markdown><script type="text/template">### Ladder: OR
+
+---
+### Ladder: OR
 
 <center><img alt="centered image" width="800" height="600" src="media/plc_ladder5.png"></center>
-</script></section><section  data-markdown><script type="text/template">### Ladder: ejemplo
+
+---
+### Ladder: ejemplo
 
 <center><iframe width="1000" height="600" src="https://www.plcacademy.com/wp-content/uploads/2019/02/start-stop-motor-ladder-logic.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
-</script></section><section  data-markdown><script type="text/template">### Ladder: ejemplo 2
 
-<center><iframe width="1000" height="600" src="https://accautomation.ca/wp-content/uploads/2015/08/Paint-Spraying.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center></script></section></div>
+---
+### Ladder: ejemplo 2
+
+<center><iframe width="1000" height="600" src="https://accautomation.ca/wp-content/uploads/2015/08/Paint-Spraying.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+          </textarea>
+        </section>
+      </div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -348,7 +404,7 @@ Además, en los años 70’s cuando se incorporaron los PLC, ya se acostumbraba 
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
     </script>
 
 

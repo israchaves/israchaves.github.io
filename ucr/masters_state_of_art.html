@@ -15,7 +15,10 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><style>
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 
@@ -54,7 +57,9 @@
 
 [//]: # ( <img width="950" height="110" src="images/all_logos.png">)
 
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 ## ARCOS-Lab's Humanoid Robot
 
 <span style="font-size: 22.0pt; ">
@@ -64,7 +69,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 ## Scenarios
 
 <span style="font-size: 22.0pt; ">
@@ -76,7 +83,9 @@
 <img  width="900" height="260" src="media/scenarios.png">
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Omnidirectional Mobile Platform
+
+---
+## Omnidirectional Mobile Platform
 
 <span style="font-size: 20.0pt; ">
 
@@ -89,7 +98,9 @@
 <img align="right" width="450" height="400" src="media/arcosbot_pcbs.jpg">
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Torso 
+
+---
+## Torso 
 
 <span style="font-size: 20.0pt; ">
 
@@ -102,7 +113,9 @@
 <img align="right" width="450" height="400" src="media/robot_with_goals.png">
 
 </span>
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 [//]: # (## Brazos y manos)
 
 [//]: # ()
@@ -157,11 +170,15 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 
 ### Literature Review
 
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 ### Capturing robot workspace structure: representing robot capabilities
 <span style="font-size: 20.0pt; ">
 
@@ -181,7 +198,9 @@
 </span>
 
 
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 ### Smart placement of a two-arm assembly for an everyday object manipulation humanoid robot based on capability maps
 <span style="font-size: 20.0pt; ">
 
@@ -200,7 +219,9 @@
 </div>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 ### Efficient Coverage of 3D Environments with Humanoid Robots Using Inverse Reachability Maps
 <span style="font-size: 20.0pt; ">
 
@@ -220,7 +241,9 @@
 </div>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 ### Action-related place-based mobile manipulation
 <span style="font-size: 20.0pt; ">
 
@@ -240,7 +263,9 @@
 </div>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 ### Combining Navigation and Manipulation Costs for Time-Efficient Robot Placement in Mobile Manipulation Tasks
 <span style="font-size: 20.0pt; ">
 
@@ -260,7 +285,9 @@
 </div>
 
 </span>
-</script></section><section  data-markdown><script type="text/template">## Objectives
+
+---
+## Objectives
 
 <span style="font-size: 18.0pt;">
 
@@ -278,7 +305,9 @@ Develop a method to create multiple cognitive capability maps, for a specific ro
 
 
 </span>
-</script></section><section  data-markdown><script type="text/template">
+
+---
+
 
 
 ## 
@@ -296,7 +325,10 @@ Develop a method to create multiple cognitive capability maps, for a specific ro
 
 <img  width="600" height="200" src="media/arcos_logo.png">
 
-</span></script></section></div>
+</span>
+          </textarea>
+        </section>
+      </div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -340,7 +372,7 @@ Develop a method to create multiple cognitive capability maps, for a specific ro
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
     </script>
 
 

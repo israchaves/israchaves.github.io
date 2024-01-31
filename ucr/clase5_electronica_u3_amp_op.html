@@ -15,7 +15,10 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><style>
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 
@@ -53,7 +56,9 @@
 <img align="left" width="300" height="300" src="media/logo-ucr.png">
 
 <img align="right" width="300" height="180" src="media/logoEIM.png">
-</script></section><section  data-markdown><script type="text/template">## Agenda
+
+---
+## Agenda
 
 <span style="font-size: 22.0pt; ">
 
@@ -66,7 +71,9 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">## Teoría del amplificador
+
+---
+## Teoría del amplificador
 
 
 <span style="font-size: 22.0pt; ">
@@ -83,7 +90,9 @@ Salida=Entrada*Ganancia(A)
 $$
 </span>
 
-</script></section><section ><section data-markdown><script type="text/template">## Tipos de amplificadores
+
+---
+## Tipos de amplificadores
 
 <span style="font-size: 20.0pt; ">
 
@@ -94,7 +103,9 @@ De acuerdo a la *magnitud* de su ganancia, se clasifican en:
 * **Seguidores:** La salida tiene la misma magnitud de la entrada. $ |A|=1 $. Se utiliza para aislar impedancias en el circuito y/o cambiar la fase.
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Tipos de amplificadores
+
+----
+## Tipos de amplificadores
 
 <span style="font-size: 20.0pt; ">
 
@@ -107,7 +118,9 @@ De acuerdo a la *variable eléctrica*, se clasifican en:
 *Las clasificaciones no son excluyentes entre sí, un amplificador siempre pertenecerá a un tipo de cada una*
 
 </span>
-</script></section></section><section  data-markdown><script type="text/template">## Configuración en cascada
+
+---
+## Configuración en cascada
 
 <span style="font-size: 22.0pt; ">
 
@@ -122,7 +135,9 @@ A_{Total}=A_{1}*A_{2} *** A_{N}
 $$
 </span>
 
-</script></section><section ><section data-markdown><script type="text/template">## Parámetros eléctricos
+
+---
+## Parámetros eléctricos
 
 <span style="font-size: 20.0pt; ">
 
@@ -132,7 +147,9 @@ El amplificador tiene una impedancia de entrada y otra de salida. El voltaje que
 
 <img  width="700" height="350" src="media/ampli3.png">
 
-</script></section><section data-markdown><script type="text/template">## Parámetros eléctricos
+
+----
+## Parámetros eléctricos
 
 <span style="font-size: 20.0pt; ">
 
@@ -155,7 +172,9 @@ $$
 * $R_L$: Carga a la salida del amplificador, donde cae $V_L$
 * $Z_{ENT}$ y $Z_{SAL}$: Impedancias de entrada y salida
 
-</span></script></section><section data-markdown><script type="text/template">## Parámetros eléctricos
+</span>
+----
+## Parámetros eléctricos
 
 <span style="font-size: 20.0pt; ">
 
@@ -172,7 +191,9 @@ $$
 Donde para ser mucho mayor, o mucho menor, debe haber una diferencia de al menos **10 veces** entre los valores.
 
 </span>
-</script></section></section><section ><section data-markdown><script type="text/template">## Retroalimentación
+
+---
+## Retroalimentación
 
 <span style="font-size: 20.0pt; ">
 
@@ -181,7 +202,9 @@ La salida se conecta a la entrada por medio de la resistencia de lazo, y el efec
 <img  width="700" height="350" src="media/ampli4.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Retroalimentación
+
+----
+## Retroalimentación
 
 <span style="font-size: 20.0pt; ">
 
@@ -196,7 +219,9 @@ Pero, idealmente, si $ A_0 $ es muy alta, e ignorando el signo, se tiene:
 $$
 A_{V}=\frac{R_{LAZO}}{R_{ENT}}
 $$
-</script></section><section data-markdown><script type="text/template">## Retroalimentación
+
+----
+## Retroalimentación
 
 
 <span style="font-size: 20.0pt; ">
@@ -229,7 +254,9 @@ $$
 
 </span>
 
-</script></section></section><section ><section data-markdown><script type="text/template">## Amplificador Operacional
+
+---
+## Amplificador Operacional
 <span style="font-size: 20.0pt; ">
 
 Amplifica el voltaje y permite hacer operaciones matemáticas. El más conocido es el IC-741, sus patillas son:
@@ -239,7 +266,9 @@ Amplifica el voltaje y permite hacer operaciones matemáticas. El más conocido 
 Tiene alimentación bipolar (sin tierra).
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Amplificador Operacional
+
+----
+## Amplificador Operacional
 <span style="font-size: 20.0pt; ">
 A lazo abierto, se tiene que:
 
@@ -252,13 +281,17 @@ $$
 </span>
 
 
-</script></section><section data-markdown><script type="text/template">## Amplificador Operacional
+
+----
+## Amplificador Operacional
 <span style="font-size: 20.0pt; ">
 
 <img  width="700" height="550" src="media/741.png">
 
 </span>
-</script></section></section><section ><section data-markdown><script type="text/template">## Circuitos con amplificadores operacionales
+
+---
+## Circuitos con amplificadores operacionales
 <span style="font-size: 20.0pt; ">
 
 **Comparador:** El circuito comparador examina dos entradas e indica cuál de ellas es mayor, se
@@ -268,7 +301,9 @@ entrada no inversora es mayor al de la inversora y negativo para el caso contrar
 <img  width="600" height="350" src="media/ampli7.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Circuitos con amplificadores operacionales
+
+----
+## Circuitos con amplificadores operacionales
 <span style="font-size: 20.0pt; ">
 
 **Inversor:** 
@@ -280,7 +315,9 @@ $$
 <img  width="600" height="350" src="media/ampli8.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">### Circuitos con amplificadores operacionales
+
+----
+### Circuitos con amplificadores operacionales
 <span style="font-size: 17.0pt; ">
 
 **Sumador:**
@@ -300,7 +337,9 @@ resistencia de lazo igual a la de entrada entre el número de entradas se puede
 construir un promediador discreto
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Circuitos con amplificadores operacionales
+
+----
+## Circuitos con amplificadores operacionales
 <span style="font-size: 20.0pt; ">
 
 **Restador:**
@@ -312,7 +351,9 @@ $$
 <img  width="500" height="350" src="media/ampli10.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Circuitos con amplificadores operacionales
+
+----
+## Circuitos con amplificadores operacionales
 <span style="font-size: 20.0pt; ">
 
 **Integrador:**
@@ -324,7 +365,9 @@ $$
 <img  width="500" height="350" src="media/ampli11.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Circuitos con amplificadores operacionales
+
+----
+## Circuitos con amplificadores operacionales
 <span style="font-size: 20.0pt; ">
 
 **Derivador:**
@@ -336,7 +379,9 @@ $$
 <img  width="500" height="350" src="media/ampli12.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Circuitos con amplificadores operacionales
+
+----
+## Circuitos con amplificadores operacionales
 <span style="font-size: 18.0pt; ">
 
 **Filtro pasa baja:** Se escoge C entre 1 y 100 nF, y $f_c$ es la frecuencia de corte. Deja pasar las frecuencias que estén por debajo de $f_c$
@@ -348,7 +393,9 @@ $$
 <img  width="500" height="330" src="media/ampli13.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Circuitos con amplificadores operacionales
+
+----
+## Circuitos con amplificadores operacionales
 <span style="font-size: 18.0pt; ">
 
 **Filtro pasa alta:** Se escoge C entre 1 y 100 nF, y $f_c$ es la frecuencia de corte. Deja pasar las frecuencias que estén por encima de $f_c$
@@ -360,24 +407,33 @@ $$
 <img  width="500" height="330" src="media/ampli14.png">
 
 </span>
-</script></section></section><section ><section data-markdown><script type="text/template">## Ejercicio 1
+
+---
+## Ejercicio 1
 <span style="font-size: 20.0pt; ">
 
 <img  width="900" height="550" src="media/ejercicio1_amp.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Ejercicio 2
+
+----
+## Ejercicio 2
 <span style="font-size: 20.0pt; ">
 
 <img  width="900" height="550" src="media/ejercicio2_amp.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Ejercicio 3
+
+----
+## Ejercicio 3
 <span style="font-size: 20.0pt; ">
 
 <img  width="850" height="550" src="media/ejercicio3_amp.png">
 
-</span></script></section></section></div>
+</span>
+          </textarea>
+        </section>
+      </div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -421,7 +477,7 @@ $$
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
     </script>
 
 

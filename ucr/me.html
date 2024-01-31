@@ -15,7 +15,10 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><style>
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 
@@ -54,7 +57,9 @@
 * Cursando la maestría académica en computación, UCR
 * Emprendimiento social - [Social Shot Latam](www.socialshotlatam.org)
 
-</script></section><section  data-markdown><script type="text/template">## Agenda
+
+---
+## Agenda
 
 <div id="left">
 
@@ -71,7 +76,9 @@
 <img  width="400" height="200" src="media/anime.jpg">
 
 </div>
-</script></section><section  data-markdown><script type="text/template">## Ahora ustedes..
+
+---
+## Ahora ustedes..
 
 * Nombre
 * ¿De dónde son?
@@ -79,7 +86,10 @@
 * Algo que les guste de la carrera y algo que no
 
 
-</script></section></div>
+
+          </textarea>
+        </section>
+      </div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -123,7 +133,7 @@
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
     </script>
 
 

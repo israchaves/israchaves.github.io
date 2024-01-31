@@ -15,7 +15,10 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><style>
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 
@@ -52,7 +55,9 @@
 <img align="left" width="300" height="300" src="media/logo-ucr.png">
 
 <img align="right" width="300" height="180" src="media/logoEIM.png">
-</script></section><section  data-markdown><script type="text/template">## Agenda
+
+---
+## Agenda
 
 <span style="font-size: 22.0pt; ">
 
@@ -64,8 +69,10 @@
 
 </span>
 
-<aside class="notes"><p>Prueba de notas para el speaker</p>
-</aside></script></section><section ><section data-markdown><script type="text/template">## Control en la mecatrónica
+Note: Prueba de notas para el speaker
+
+---
+## Control en la mecatrónica
 
 
 <span style="font-size: 22.0pt; ">
@@ -74,7 +81,9 @@
 <img  width="900" height="280" src="media/control01.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Control en la mecatrónica
+
+----
+## Control en la mecatrónica
 
 
 <span style="font-size: 22.0pt; ">
@@ -85,7 +94,9 @@
 * Formalmente, el control debe diseñarse de manera que se cumpla el proceso deseado, minimizando la función de costo.
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Control en la mecatrónica
+
+----
+## Control en la mecatrónica
 
 
 <span style="font-size: 22.0pt; ">
@@ -96,7 +107,9 @@ Para mejorar/diseñar un buen sistema, idealmente, se debe **optimizar** cada et
 <img  width="700" height="300" src="media/control02.png">
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Control en la mecatrónica
+
+----
+## Control en la mecatrónica
 
 <span style="font-size: 22.0pt; ">
 
@@ -108,7 +121,9 @@ Sin embargo, en la práctica, muchas veces no podemos optimizar cada etapa del s
 
 </span>
 
-</script></section></section><section ><section data-markdown><script type="text/template">
+
+---
+
 ## Métodos y tipos de control
 
 
@@ -122,7 +137,9 @@ Formalmente, podemos hablar de 3 elementos clave en los tipos de control:
 
 
 </span>
-</script></section><section data-markdown><script type="text/template">## PID
+
+----
+## PID
 
 <span style="font-size: 22.0pt; ">
 
@@ -130,7 +147,9 @@ Formalmente, podemos hablar de 3 elementos clave en los tipos de control:
 
 
 </span>
-</script></section><section data-markdown><script type="text/template">## PID
+
+----
+## PID
 
 <span style="font-size: 22.0pt; ">
 
@@ -138,7 +157,9 @@ Formalmente, podemos hablar de 3 elementos clave en los tipos de control:
 
 
 </span>
-</script></section><section data-markdown><script type="text/template">## PID
+
+----
+## PID
 
 <span style="font-size: 22.0pt; ">
 
@@ -146,7 +167,9 @@ Formalmente, podemos hablar de 3 elementos clave en los tipos de control:
 
 
 </span>
-</script></section></section><section ><section data-markdown><script type="text/template">## Métodos y tipos de control
+
+---
+## Métodos y tipos de control
 
 
 <span style="font-size: 22.0pt; ">
@@ -159,7 +182,9 @@ Típicamente trabaja con señales digitales, tanto a las entradas como a las sal
 
 </span>
 
-</script></section><section data-markdown><script type="text/template">## PLC
+
+----
+## PLC
 
 <span style="font-size: 22.0pt; ">
 
@@ -167,7 +192,9 @@ Típicamente trabaja con señales digitales, tanto a las entradas como a las sal
 
 
 </span>
-</script></section></section><section  data-markdown><script type="text/template">## Métodos y tipos de control
+
+---
+## Métodos y tipos de control
 
 
 <span style="font-size: 22.0pt; ">
@@ -192,7 +219,10 @@ Se suelen utilizar cuando el sistema ó proceso es autónomo y requiere cierta p
 [//]: # ()
 [//]: # (<iframe width="580" height="500" src="https://i.pinimg.com/originals/93/a3/26/93a3265d5be4444bc24cde6ab8d6d522.gif" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>)
 
-</script></section></div>
+
+          </textarea>
+        </section>
+      </div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -236,7 +266,7 @@ Se suelen utilizar cuando el sistema ó proceso es autónomo y requiere cierta p
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
     </script>
 
 

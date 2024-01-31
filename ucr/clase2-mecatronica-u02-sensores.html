@@ -15,7 +15,10 @@
   </head>
   <body>
     <div class="reveal">
-      <div class="slides"><section  data-markdown><script type="text/template"><style>
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
 .reveal section img { background:none; border:none; box-shadow:none; }
 
 
@@ -53,7 +56,9 @@
 <img align="left" width="300" height="300" src="media/logo-ucr.png">
 
 <img align="right" width="300" height="180" src="media/logoEIM.png">
-</script></section><section  data-markdown><script type="text/template">## Agenda
+
+---
+## Agenda
 
 <span style="font-size: 22.0pt; ">
 
@@ -65,13 +70,17 @@
 
 </span>
 
-</script></section><section  data-markdown><script type="text/template">## Sensores en un sistema
+
+---
+## Sensores en un sistema
 
 <img align="center" width="800" height="600" src="media/sensors01.png">
 
 
 
-</script></section><section ><section data-markdown><script type="text/template">## Tipos
+
+---
+## Tipos
 
 <span style="font-size: 20.0pt; ">
 
@@ -82,7 +91,9 @@ Actualmente, existen sensores para medir casi cualquier cosa, y se diseñan más
 * **Magnéticos:** Intensidad de campo magnético, densidad de flujo, y magnetización.
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Tipos
+
+----
+## Tipos
 
 <span style="font-size: 20.0pt; ">
 
@@ -92,10 +103,14 @@ Actualmente, existen sensores para medir casi cualquier cosa, y se diseñan más
 
 </span>
 
-</script></section><section data-markdown><script type="text/template">## Tipos
+
+----
+## Tipos
 
 ![](media/sensors02.png)
-</script></section></section><section ><section data-markdown><script type="text/template">## Lineales y rotacionales
+
+---
+## Lineales y rotacionales
 
 <span style="font-size: 20.0pt; ">
 
@@ -106,7 +121,9 @@ Actualmente, existen sensores para medir casi cualquier cosa, y se diseñan más
 * Los sensores de alta resolución, como galgas, efecto Hall, inductivos y capacitivos, trabajan en rangos pequeños (de 0,1 mm hasta los 5 mm)
 
 </span>
-</script></section><section data-markdown><script type="text/template">## Lineales y rotacionales
+
+----
+## Lineales y rotacionales
 ### Galgas extensiométricas
 <span style="font-size: 20.0pt; ">
 
@@ -119,12 +136,16 @@ $$
 <img align="left" width="450" height="300" src="media/gauge02.png">
 
 <img align="right" width="150" height="350" src="media/gauge01.png">
-</script></section><section data-markdown><script type="text/template">## Lineales y rotacionales
+
+----
+## Lineales y rotacionales
 ### Galgas extensiométricas
 
 <iframe width="800" height="500" src="https://www.youtube.com/embed/Mts5Cr_BNCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</script></section><section data-markdown><script type="text/template">## Sensores de aceleración
+
+----
+## Sensores de aceleración
 
 <span style="font-size: 20.0pt; ">
 
@@ -138,7 +159,9 @@ $$
 <img align="left" width="500" height="350" src="media/accelerometer.jpg">
 
 <img align="right" width="400" height="350" src="media/accel_piezo.jpg">
-</script></section><section data-markdown><script type="text/template">## Sensores de fuerza, torque y presión
+
+----
+## Sensores de fuerza, torque y presión
 
 <span style="font-size: 20.0pt; ">
 
@@ -151,7 +174,9 @@ $$
 <img align="left" width="300" height="350" src="media/force_sensor01.png">
 
 <img align="right" width="500" height="350" src="media/torque_sensor.png">
-</script></section></section><section ><section data-markdown><script type="text/template">## Sensores de flujo
+
+---
+## Sensores de flujo
 
 <span style="font-size: 20.0pt; ">
 
@@ -159,10 +184,14 @@ $$
 * Además, el fluido puede ser laminar ó turbulento, y puede cambiar con el tiempo
 * Es muy importante elegir el tipo de sensor según el tipo de fluido, por ejemplo, si el fluido es corrosivo, con partículas abrasivas, su nivel de pH; el ángulo de inclinación de la tubería, etc.
   </span>
-</script></section><section data-markdown><script type="text/template">## Sensores de flujo
+
+----
+## Sensores de flujo
 
 <iframe width="800" height="500" src="https://www.youtube.com/embed/_pL7bGEF52s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</script></section><section data-markdown><script type="text/template">## Sensores de temperatura
+
+----
+## Sensores de temperatura
 
 <span style="font-size: 20.0pt; ">
 
@@ -174,7 +203,9 @@ $$
   </span>
 
 <img width="400" height="250" src="media/RTD.jpg">
-</script></section><section data-markdown><script type="text/template">## Sensores de luz
+
+----
+## Sensores de luz
 
 <span style="font-size: 20.0pt; ">
 
@@ -188,7 +219,9 @@ $$
 
 <img align="right" width="500" height="350" src="media/industrial_camera.jpg">
 
-</script></section><section data-markdown><script type="text/template">## Sensores de materiales inteligentes
+
+----
+## Sensores de materiales inteligentes
 
 <span style="font-size: 20.0pt; ">
 
@@ -199,11 +232,15 @@ $$
 <img align="left" width="400" height="350" src="media/optic_fiber.jpg">
 
 <img align="right" width="500" height="350" src="media/magnetostrictive.jpg">
-</script></section><section data-markdown><script type="text/template">## Sensores de materiales inteligentes
+
+----
+## Sensores de materiales inteligentes
 
 <iframe width="800" height="500" src="https://www.youtube.com/embed/ZKsInPJ7ilk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-</script></section></section><section ><section data-markdown><script type="text/template">## Características importantes
+
+---
+## Características importantes
 
 <span style="font-size: 20.0pt; ">
 
@@ -216,7 +253,9 @@ Al seleccionar un sensor, se deben considerar múltiples factores:
 * **Sensibilidad:** Nivel de cambio de la salida del sensor, respecto a un cambio en la entrada.
 * **Ajuste a cero:** Tener un valor diferente de cero, cuando no hay entrada.
   </span>
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <span style="font-size: 20.0pt; ">
 
@@ -229,49 +268,78 @@ Otros factores, son:
 * **Histéresis:** Desviación del sensor, en cualquier punto.
 
   </span>
-</script></section></section><section ><section data-markdown><script type="text/template">## Características importantes
+
+---
+## Características importantes
 
 <img width="800" height="500" src="media/transfer.png">
 
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/impedancias.png">
 
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/ejemplo_impedancias.png">
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/rango.png">
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 ### Ejemplo de resolución con un sensor de presión
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/errores_sensores.png">
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/ejemplo_errores.png">
 
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/no_linealidad.png">
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/repetitibilidad.png">
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/sensibilidad.png">
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/ejemplo_sensibilidad.png">
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/histeresis_sensor.png">
-</script></section><section data-markdown><script type="text/template">## Características importantes
+
+----
+## Características importantes
 
 <img width="800" height="500" src="media/histeresis_2.png">
-</script></section></section></div>
+
+          </textarea>
+        </section>
+      </div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -315,7 +383,7 @@ Otros factores, son:
       // options from URL query string
       var queryOptions = Reveal().getQueryHash() || {};
 
-      var options = extend(defaultOptions, {}, queryOptions);
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"https://rawgit.com/puzzle/pitc-revealjs-theme/master/theme/puzzle.css","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
     </script>
 
 
