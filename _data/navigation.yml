@@ -20,6 +20,10 @@ main:
     
   - title: "CV"
     url: /files/CV_Israel_Chaves_academic.pdf
+
+  #- title: "Booking Page"
+  - title: "Booking Page"
+    url: https://doodle.com/bp/israelchavesarbaiza/reserva-de-espacio-de-consulta
     
   #- title: "Guide"
   #  url: /markdown/
