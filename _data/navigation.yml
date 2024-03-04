@@ -23,7 +23,7 @@ main:
 
   #- title: "Booking Page"
   - title: "Booking Page"
-    url: https://doodle.com/bp/israelchavesarbaiza/reserva-de-espacio-de-consulta
-    
+    url: /booking/
+
   #- title: "Guide"
   #  url: /markdown/
