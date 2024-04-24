@@ -52,9 +52,7 @@
 <span style="font-size: 20.0pt;"> **Curso**: Electrónica Básica para Ing. Mecánica  </span>
 
 
-<img align="left" width="300" height="300" src="media/logo-ucr.png">
-
-<img align="right" width="300" height="180" src="media/logoEIM.png">
+<img  width="900" height="130" src="media/logo_slides.jpg">
 
 ---
 ## Agenda
@@ -103,7 +101,7 @@ De acuerdo a la *magnitud* de su ganancia, se clasifican en:
 
 </span>
 
-----
+---
 ## Tipos de amplificadores
 
 <span style="font-size: 20.0pt; ">
@@ -147,7 +145,7 @@ El amplificador tiene una impedancia de entrada y otra de salida. El voltaje que
 <img  width="700" height="350" src="media/ampli3.png">
 
 
-----
+---
 ## Parámetros eléctricos
 
 <span style="font-size: 20.0pt; ">
@@ -172,7 +170,8 @@ $$
 * $Z_{ENT}$ y $Z_{SAL}$: Impedancias de entrada y salida
 
 </span>
-----
+
+---
 ## Parámetros eléctricos
 
 <span style="font-size: 20.0pt; ">
@@ -202,7 +201,7 @@ La salida se conecta a la entrada por medio de la resistencia de lazo, y el efec
 
 </span>
 
-----
+---
 ## Retroalimentación
 
 <span style="font-size: 20.0pt; ">
@@ -219,7 +218,7 @@ $$
 A_{V}=\frac{R_{LAZO}}{R_{ENT}}
 $$
 
-----
+---
 ## Retroalimentación
 
 
@@ -266,7 +265,7 @@ Tiene alimentación bipolar (sin tierra).
 
 </span>
 
-----
+---
 ## Amplificador Operacional
 <span style="font-size: 20.0pt; ">
 A lazo abierto, se tiene que:
@@ -281,7 +280,7 @@ $$
 
 
 
-----
+---
 ## Amplificador Operacional
 <span style="font-size: 20.0pt; ">
 
@@ -290,19 +289,22 @@ $$
 </span>
 
 ---
-## Circuitos con amplificadores operacionales
+## Circuitos con amp. operacionales
 <span style="font-size: 20.0pt; ">
 
-**Comparador:** El circuito comparador examina dos entradas e indica cuál de ellas es mayor, se
-basa en la saturación del 741; si el voltaje de salida es positivo el voltaje de
-entrada no inversora es mayor al de la inversora y negativo para el caso contrario
+**Comparador:** El circuito comparador examina dos entradas e indica cuál de ellas es mayor, se basa en la saturación del 741. 
 
-<img  width="600" height="350" src="media/ampli7.png">
+$$ V_{SAL} > 0 \Leftrightarrow V_{2} > V_{1} $$
+
+$$ V_{SAL} < 0 \Leftrightarrow V_{1} > V_{2} $$
+
+
+<img  width="600" height="300" src="media/ampli7.png">
 
 </span>
 
-----
-## Circuitos con amplificadores operacionales
+---
+## Circuitos con amp. operacionales
 <span style="font-size: 20.0pt; ">
 
 **Inversor:** 
@@ -315,9 +317,9 @@ $$
 
 </span>
 
-----
-### Circuitos con amplificadores operacionales
-<span style="font-size: 17.0pt; ">
+---
+### Circuitos con am. operacionales
+<span style="font-size: 18.0pt; ">
 
 **Sumador:**
 
@@ -337,8 +339,8 @@ construir un promediador discreto
 
 </span>
 
-----
-## Circuitos con amplificadores operacionales
+---
+## Circuitos con amp. operacionales
 <span style="font-size: 20.0pt; ">
 
 **Restador:**
@@ -347,12 +349,12 @@ $$
 V_{SAL}=R_{LAZO} \Big( \frac{V_1}{R_1} - \frac{V_2}{R_2} \Big)
 $$
 
-<img  width="500" height="350" src="media/ampli10.png">
+<img  width="500" height="250" src="media/ampli10.png">
 
 </span>
 
-----
-## Circuitos con amplificadores operacionales
+---
+## Circuitos con amp. operacionales
 <span style="font-size: 20.0pt; ">
 
 **Integrador:**
@@ -361,12 +363,12 @@ $$
 V_{SAL}=- \frac{1}{RC} \int V_{ent}(t) dt
 $$
 
-<img  width="500" height="350" src="media/ampli11.png">
+<img  width="500" height="300" src="media/ampli11.png">
 
 </span>
 
-----
-## Circuitos con amplificadores operacionales
+---
+## Circuitos con amp. operacionales
 <span style="font-size: 20.0pt; ">
 
 **Derivador:**
@@ -375,12 +377,12 @@ $$
 V_{SAL}=- RC \frac{d V_{ent}(t)}{dt}
 $$
 
-<img  width="500" height="350" src="media/ampli12.png">
+<img  width="500" height="300" src="media/ampli12.png">
 
 </span>
 
-----
-## Circuitos con amplificadores operacionales
+---
+## Circuitos con amp. operacionales
 <span style="font-size: 18.0pt; ">
 
 **Filtro pasa baja:** Se escoge C entre 1 y 100 nF, y $f_c$ es la frecuencia de corte. Deja pasar las frecuencias que estén por debajo de $f_c$
@@ -393,8 +395,8 @@ $$
 
 </span>
 
-----
-## Circuitos con amplificadores operacionales
+---
+## Circuitos con amp. operacionales
 <span style="font-size: 18.0pt; ">
 
 **Filtro pasa alta:** Se escoge C entre 1 y 100 nF, y $f_c$ es la frecuencia de corte. Deja pasar las frecuencias que estén por encima de $f_c$
@@ -411,23 +413,29 @@ $$
 ## Ejercicio 1
 <span style="font-size: 20.0pt; ">
 
-<img  width="900" height="550" src="media/ejercicio1_amp.png">
+¿Qué función matemática define el circuito de la figura?
+
+<img  width="800" height="500" src="media/ejercicio1_amp.png">
 
 </span>
 
-----
+---
 ## Ejercicio 2
 <span style="font-size: 20.0pt; ">
 
-<img  width="900" height="550" src="media/ejercicio2_amp.png">
+¿Cuál es la función del circuito de la figura?
+
+<img  width="800" height="500" src="media/ejercicio2_amp.png">
 
 </span>
 
-----
+---
 ## Ejercicio 3
 <span style="font-size: 20.0pt; ">
 
-<img  width="850" height="550" src="media/ejercicio3_amp.png">
+En la figura se muestra un circuito sumador de tres voltajes, modifíquelo para que promedie tres señales
+
+<img  width="700" height="450" src="media/ejercicio3_amp.png">
 
 </span>
           </textarea>
