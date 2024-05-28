@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>reveal-md</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reset.css" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/white.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/base16/zenburn.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown data-separator="\r?\n---\r?\n" data-separator-vertical="\r?\n----\r?\n">
+          <textarea data-template>
+            <style>
+.reveal section img { background:none; border:none; box-shadow:none; }
+
+
+#left {
+    margin: 10px 0 15px 20px;
+    text-align: center;
+    float: left;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+#right {
+    margin: 10px 0 15px 0;
+    float: right;
+    text-align: center;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+</style>
+
+
+# Técnica de priorización: Metolodogía Kano
+
+
+<span style="font-size: 20.0pt; "> **Profesor:** Ing. Israel Chaves Arbaiza </span>
+
+<span style="font-size: 20.0pt;"> **Curso**: Mecatrónica  </span>
+
+
+<img  width="900" height="130" src="media/logo_slides.jpg">
+
+
+
+---
+## Metodología Kano
+
+
+<span style="font-size: 22.0pt; ">
+
+Se responden 2 preguntas:
+
+* ¿Cómo se sentiría si el producto tuviera esta funcionalidad?
+* ¿Cómo se sentiría si el producto **NO** tuviera esta funcionalidad?
+* R/ Me gusta $|$ Lo espero (debería tenerlo) $|$ No me importa $|$ Puedo tolerarlo $|$ No me gusta
+
+
+<img  width="300" height="300" src="media/grafica_kano.png">
+
+<img  width="600" height="280" src="media/matriz_kano.png">
+
+</span>
+
+---
+## Matriz editable de priorización Kano
+
+
+<span style="font-size: 22.0pt; ">
+
+
+[Hoja de cálculo editable](https://docs.google.com/spreadsheets/d/1ezW6MEa7fBsoEofhC8wBJLcN2C1psr2ZCj5O_i-OO9U/edit?usp=sharing)
+
+
+</span>
+
+
+
+
+
+          </textarea>
+        </section>
+      </div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./mermaid/dist/mermaid.min.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        slideNumber: true,
+        highlight: {
+          highlightOnLoad: false
+        },
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"_":["/home/israchaves/local/src/lectures-material/slides/"],"static":"ucr/","theme":"white","static-dirs":"../lectures-material/slides/media","staticDirs":"../lectures-material/slides/media"}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+      Reveal.addEventListener('ready', function (event) {
+        const blocks = Reveal.getRevealElement().querySelectorAll('pre code:not(.mermaid)');
+        const hlp = Reveal.getPlugin('highlight');
+        blocks.forEach(hlp.highlightBlock);
+      });
+    </script>
+
+    <script>
+      const mermaidOptions = extend({ startOnLoad: false }, {});
+      mermaid.startOnLoad = false;
+      mermaid.initialize(mermaidOptions);
+      const cb = function (event) { mermaid.init(mermaidOptions, '.stack.present>.present pre code.mermaid'); };
+      Reveal.addEventListener('ready', cb);
+      Reveal.addEventListener('slidetransitionend', cb);
+    </script>
+  </body>
+</html>
