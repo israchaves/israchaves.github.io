@@ -60,7 +60,9 @@
 
 * Entender la importancia del control en la mecatrónica
 * Cómo modelar sistemas
-
+* Aprender a análizar las respuestas de los sistemas 
+* Conocer métodos y tipos de control
+* Comentar los principios de optimización
 
 </span>
 
@@ -273,6 +275,127 @@ Se deben producir imágenes nítidas, sin intervención manual especial (funció
 </span>
 
 
+## Métodos y tipos de control
+
+
+
+<span style="font-size: 22.0pt; ">
+
+
+Formalmente, podemos hablar de 3 elementos clave en los tipos de control: 
+
+
+1) **Control PID:** En un control a lazo cerrado, se mide el error entre un valor deseado y la salida del sistema. El control PID busca corregir y minimizar ese error. Para ello, utiliza 3 parámetros: **P (proporcional)**, ejecuta la acción para corregir el error, proporcionalmente al error, entre más grande sea, más grande P. 
+
+
+**I (integral)**, considera el tiempo que ha permanecido presente el error. Entre más tiempo lleve el error presente en el sistema, más grande será I. Y por último, **D (derivativo)**, relacionado al cambio del error en el tiempo, es decir, entre más rápido cambie el error, mayor será D.  
+
+
+
+</span>
+
+
+---
+
+## PID
+
+
+<span style="font-size: 22.0pt; ">
+
+
+<img  width="700" height="300" src="media/pid.png">
+
+
+
+</span>
+
+
+---
+
+## PID
+
+
+<span style="font-size: 22.0pt; ">
+
+
+<img  width="700" height="300" src="media/horno.jpg">
+
+
+
+</span>
+
+
+---
+
+## PID
+
+
+<span style="font-size: 22.0pt; ">
+
+
+<img  width="700" height="300" src="media/horno.gif">
+
+
+
+</span>
+
+
+---
+
+## Métodos y tipos de control
+
+
+
+<span style="font-size: 22.0pt; ">
+
+
+2) **Computador Lógico Programable (PLC):** Es un sistema computacional sencillo, diseñado para ambientes de fábrica principalmente. 
+
+Típicamente trabaja con señales digitales, tanto a las entradas como a las salidas. Existen múltiples lenguajes de programación para aplicarles el código, uno de los más comunes es la *programación en escalera*
+
+
+<img  width="600" height="300" src="media/plc.jpg">
+
+
+
+</span>
+
+
+
+---
+
+## PLC
+
+
+<span style="font-size: 22.0pt; ">
+
+
+<img  width="700" height="300" src="media/ladder.gif">
+
+
+
+</span>
+
+
+---
+
+## Métodos y tipos de control
+
+
+
+<span style="font-size: 22.0pt; ">
+
+
+3) **Microprocesador/Microcontrolador:** Un cerebro computacional, ocupa dos partes principales, el **microprocesador** y el **microcontrolador**. El microprocesador se encarga de ejecutar las operaciones, y el microcontrolador, se encarga de la comunicación con las entradas, y salidas, y de darle las órdenes de cómo y cuándo actuar, al microprocesador. Contiene una memoria de almacenamiento más limitada. 
+
+Se suelen utilizar cuando el sistema ó proceso es autónomo y requiere cierta portabilidad ó mobilidad, ó cuando el sistema es un prototipo. 
+
+
+<img  width="300" height="200" src="media/micro.jpeg">
+
+
+
+</span>
 
 
 
