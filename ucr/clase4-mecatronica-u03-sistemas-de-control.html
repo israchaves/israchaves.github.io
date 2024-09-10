@@ -274,6 +274,53 @@ Se deben producir imágenes nítidas, sin intervención manual especial (funció
 
 </span>
 
+---
+## Paradigmas de modelado para Mecatrónica
+
+<span style="font-size: 22.0pt; ">
+
+El **objetivo principal de un modelo**, es representar el comportamiento del sistema de forma general, independientemente del dominio en que se trabaje.
+
+Usualmente, esto se obtiene simplificando ecuaciones (ecuaciones diferenciales) de modelos físicos fundamentales, en sistemas linealmente invariantes en el tiempo (LTI), a representaciones en el dominio de la frecuenca (funciones de transferencia)
+
+
+</span>
+
+---
+## Paradigmas de modelado para Mecatrónica
+
+<span style="font-size: 22.0pt; ">
+
+* **Modelado basado en energía:** Utiliza funciones de energía, como las *ecuaciones de Lagrange* o de *Hamilton*
+* **Modelado multipuerto:** Aplican modelos basados en componentes, manteniendo las leyes de conservación de la energía, como *las leyes de Kirchhoff* o los *diagramas de cuerpo libre*
+
+De estos, el más utilizado en ingeniería, es el método multipuerto. 
+
+
+</span>
+
+---
+## Paradigmas de modelado para Mecatrónica
+
+<img  width="700" height="500" src="media/paradigma_modelado.png">
+
+
+---
+## Control en la Mecatrónica
+
+<span style="font-size: 22.0pt; ">
+
+El control automático, aplicado en sistemas mecatrónicos, debe cumplir con 3 aspectos:
+
+* **Estabilidad y robustez**, en presencia de incertidumbres y variaciones
+* **Rechazo de perturbaciones** y de valores de entradas indeseables
+* **Enfoque en el movimiento deseado**
+
+
+</span>
+
+
+---
 
 ## Métodos y tipos de control
 
@@ -282,10 +329,10 @@ Se deben producir imágenes nítidas, sin intervención manual especial (funció
 <span style="font-size: 22.0pt; ">
 
 
-Formalmente, podemos hablar de 3 elementos clave en los tipos de control: 
+Existen distintos tipos de control automático, pero en la industria, el más utilizado es el:
 
 
-1) **Control PID:** En un control a lazo cerrado, se mide el error entre un valor deseado y la salida del sistema. El control PID busca corregir y minimizar ese error. Para ello, utiliza 3 parámetros: **P (proporcional)**, ejecuta la acción para corregir el error, proporcionalmente al error, entre más grande sea, más grande P. 
+ **Control PID:** En un control a lazo cerrado, se mide el error entre un valor deseado y la salida del sistema. El control PID busca corregir y minimizar ese error. Para ello, utiliza 3 parámetros: **P (proporcional)**, ejecuta la acción para corregir el error, proporcionalmente al error, entre más grande sea, más grande P. 
 
 
 **I (integral)**, considera el tiempo que ha permanecido presente el error. Entre más tiempo lleve el error presente en el sistema, más grande será I. Y por último, **D (derivativo)**, relacionado al cambio del error en el tiempo, es decir, entre más rápido cambie el error, mayor será D.  
@@ -342,61 +389,31 @@ Formalmente, podemos hablar de 3 elementos clave en los tipos de control:
 
 ---
 
-## Métodos y tipos de control
-
-
+## Diseño de PID
 
 <span style="font-size: 22.0pt; ">
 
+Para diseñar un control PID, se debe aplicar el modelado antes explicado; y se pueden utilizar las herramientas de software como  **MATLAB** para diseñar de forma sencilla un PID que pueda brindar un control simple del sistema. 
 
-2) **Computador Lógico Programable (PLC):** Es un sistema computacional sencillo, diseñado para ambientes de fábrica principalmente. 
-
-Típicamente trabaja con señales digitales, tanto a las entradas como a las salidas. Existen múltiples lenguajes de programación para aplicarles el código, uno de los más comunes es la *programación en escalera*
-
-
-<img  width="600" height="300" src="media/plc.jpg">
-
-
+Se recomienda revisar la siguiente [tabla](https://www.mathworks.com/help/control/getstart/choosing-a-pid-controller-design-tool.html)
+, que indica cuándo seleccionar las diferentes herramientas de **MATLAB** para diseñar un PID
 
 </span>
-
-
 
 ---
 
-## PLC
-
-
-<span style="font-size: 22.0pt; ">
-
-
-<img  width="700" height="300" src="media/ladder.gif">
-
-
-
-</span>
-
-
----
-
-## Métodos y tipos de control
-
-
+## Diseño de PID
 
 <span style="font-size: 22.0pt; ">
 
-
-3) **Microprocesador/Microcontrolador:** Un cerebro computacional, ocupa dos partes principales, el **microprocesador** y el **microcontrolador**. El microprocesador se encarga de ejecutar las operaciones, y el microcontrolador, se encarga de la comunicación con las entradas, y salidas, y de darle las órdenes de cómo y cuándo actuar, al microprocesador. Contiene una memoria de almacenamiento más limitada. 
-
-Se suelen utilizar cuando el sistema ó proceso es autónomo y requiere cierta portabilidad ó mobilidad, ó cuando el sistema es un prototipo. 
+<img  width="700" height="300" src="media/matlab_pid.png">
 
 
-<img  width="300" height="200" src="media/micro.jpeg">
-
+Como ejemplo, revisar el caso de un **Control de temperatura en un intercambiador de calor**
+[en este enlace](https://www.mathworks.com/help/control/ug/temperature-control-in-a-heat-exchanger.html)
 
 
 </span>
-
 
 
           </textarea>
