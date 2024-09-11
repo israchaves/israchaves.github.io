@@ -44,7 +44,7 @@
 
 
 
-## Presentación del curso IM0412
+## Unidad 3: Polarización del BJT
 
 
 <span style="font-size: 24.0pt; "> **Profesor:** Ing. Israel Chaves Arbaiza </span>
@@ -52,210 +52,221 @@
 <span style="font-size: 24.0pt;"> **Curso**: Electrónica Básica para Ing. Mecánica  </span>
 
 
-<img align="left" width="400" height="200" src="media/logo_ucr_blanco.png">
-
-<img align="right" width="400" height="100" src="media/logoEIM.png">
+<img  width="900" height="130" src="media/logo_slides.jpg">
 
 
 ---
-## Generalidades
+## Objetivos de la clase
 
 <span style="font-size: 24.0pt; ">
 
-* **Créditos:** 3
-* **Requisitos:** Principios de electromecánica
-* **Teoría:** M 10:00 - 12:50, aula 203IN
-* **Laboratorio:** M 8:00-9:50 $|$ M 15:00-16:50, Lab. Mecatrónica (frente al lab de transfe)
-* **Consulta virtual:** K 14:00-17:00, *ver enlace en el entorno virtual*
-* **Correo:** israel.chaves@ucr.ac.cr $|$ Oficina 248, frente a la dirección
+* Dominar las ecuaciones del transistor
+* Aprender a analizar la recta de carga de un BJT
+* Entender el concepto de saturación en el BJT
+
 
 </span>
 
 
 ---
-## Objetivo general
+## Ecuaciones importantes
 
 <span style="font-size: 25.0pt; ">
 
-Brindar al estudiante conceptos, fundamentos y conocimiento de aplicaciones de la electrónica, que le permitan desarrollarse y enfrentarse a los retos futuros que el mundo industrial y competitivo le planteará
+Las relaciones más importantes en un BJT son:
+
+$$
+V_{BE}=0,7 [V]
+$$
+
+$$
+I_{E}=(\beta + 1 ) I_{B} \cong I_{C}
+$$
+
+$$
+I_{C} = \beta I_{B}
+$$
+</span>
+
+---
+## Polarización del BJT
+
+<span style="font-size: 25.0pt; ">
+
+La operación de las regiones de corte, saturación y lineal, para un transistor BJT, se da como sigue:
+
+1. **Región lineal/activa:**
+   * Unión base-emisor polarizada en directa
+   * Unión base-colector polarizada en inversa
+2. **Región de corte:**
+    * Unión base-emisor polarizada en inversa
+    * Unión base-colector polarizada en inversa
+3. **Región de saturación:**
+    * Unión base-emisor polarizada en directa
+    * Unión base-colector polarizada en directa
+
+</span>
+
+
+---
+## Polarización del BJT
+
+<span style="font-size: 25.0pt; ">
+
+Para que el BJT se polarice en su región activa, o de operación
+lineal, se debe cumplir que:
+
+1. La unión **Base-Emisor** debe polarizarse en directa, con el
+   voltaje de polarización entre 0, 6 V y 0, 7 V
+2. La unión **Base-Colector** debe polarizarse en inversa (más
+   positivo en la región N)
+
+<img  width="400" height="300" src="media/polarizacion_emisor_comun.png">
 
 </span>
 
 ---
-## Contenidos: Unidad 1
+## Polarización Fija
+
+<span style="font-size: 25.0pt; ">
+
+* También llamada **Emisor Común**
+* Es la configuración de polarización de CD más simple.
+* Se aplica igual para el transistor PNP, cambiando todas las direcciones de la corriente y polaridades del voltaje.
+* Para el análisis en CD, se aisla la red de los niveles de CA cambiando los capacitores por un abierto
+
+<img  width="700" height="250" src="media/pol_emisor_comun.png">
+
+</span>
+
+---
+## Polarización Fija
+
+<span style="font-size: 25.0pt; ">
+
+<img  width="600" height="500" src="media/malla1_emisor_comun.png">
+
+</span>
+
+---
+## Polarización Fija
+
+<span style="font-size: 25.0pt; ">
+
+<img  width="600" height="500" src="media/malla2_emisor_comun.png">
+
+</span>
+
+---
+## Saturación del BJT
+
+<span style="font-size: 25.0pt; ">
+
+<img  width="600" height="500" src="media/saturacion_bjt.png">
+
+</span>
+
+---
+## Saturación del BJT
+
+<span style="font-size: 25.0pt; ">
+
+<img  width="600" height="500" src="media/saturacion_bjt2.png">
+
+</span>
+
+---
+## Punto de operación
 
 <span style="font-size: 22.0pt; ">
 
-* Estructura del átomo
-* Germanio y Silicio
-* ¿Cómo se fabrican los componentes electrónicos?
+* **Polarización:** Se refiere a la aplicación de voltajes en DC para fijar una corriente y un voltaje en el BJT
+* Una vez polarizado, se tiene un **punto de operación**
+* Se pueden tener distintos puntos de operación para un mismo circuito
 
-
-![](media/semiconductores.png)
 
 </span>
 
 ---
 
-## Contenidos: Unidad 2
+## Punto de operación
 
 <span style="font-size: 22.0pt; ">
 
-* Diodo
-* Transistor
-
-![](media/unidad2_electro.png)
+<img  width="700" height="500" src="media/punto_operacion_bjt.png">
 
 </span>
 
 ---
 
-## Contenidos: Unidad 3
+## Punto de operación
 
 <span style="font-size: 22.0pt; ">
 
-* Configuración del transistor
-* Amplificador operacional
-
-![](media/unidad3_electro.png)
+<img  width="700" height="500" src="media/mejor_punto_op.png">
 
 </span>
 
 ---
 
-## Contenidos: Unidad 4
+## Análisis de la recta de carga
 
 <span style="font-size: 22.0pt; ">
 
-* Circuitos osciladores
-* Generar señales periódicas
-
-![](media/unidad4.png)
+<img  width="700" height="500" src="media/grafica_recta_carga.png">
 
 </span>
-
 ---
 
-## Contenidos: Unidad 5
+## Análisis de la recta de carga
+
+<span style="font-size: 22.0pt; ">
+La resistencia en el emisor estabiliza el circuito
+
+<img  width="700" height="500" src="media/circuito_recta_carga.png">
+
+</span>
+---
+
+## Análisis de la recta de carga
+
+<span style="font-size: 22.0pt; ">
+Ejemplo: 
+
+1. Definir parámetros para la recta de carga
+2. Con una corriente base de 15 $\mu A$, obtenga los valores de $ I_{C_Q}$, $V_{CE_Q}$
+3. Determine la beta de CD en el punto Q
+4. Usando el beta obtenido, calcule $R_{B}$, y sugiera un valor estándar
+
+<img  width="700" height="250" src="media/ejemplo_recta_carga.png">
+
+</span>
+---
+## Ejercicios
 
 <span style="font-size: 22.0pt; ">
 
-* Electrónica de potencia
-* Transistores de potencia
-
-![](media/unidad5_electro.png)
+<img  width="700" height="500" src="media/pol_ej1.png">
 
 </span>
 
 ---
-
-## Contenidos: Unidad 6
+## Ejercicios
 
 <span style="font-size: 22.0pt; ">
 
-* Electrónica digital
-* Sistemas numéricos
-
-![](media/unidad6_electro.png)
+<img  width="700" height="500" src="media/pol_ej2.png">
 
 </span>
 
 ---
-
-## Contenidos: Unidad 7
+## Ejercicios
 
 <span style="font-size: 22.0pt; ">
 
-* Circuitos lógicos
-* Compuertas booleanas
-
-![](media/unidad7_electro.png)
+<img  width="700" height="500" src="media/pol_ej3.png">
 
 </span>
-
----
-
-## Contenidos: Unidad 8
-
-<span style="font-size: 22.0pt; ">
-
-* Automatización
-* Compuertas booleanas
-
-![](media/unidad8_electro.png)
-
-</span>
-
----
-
-
-## Cronograma
-
-
-
-
-
-![](media/electro_c1.png)
-
-
-
----
-
-## Cronograma
-
-<span style="font-size: 22.0pt; ">
-
-
-
-![](media/electro_c2.png)
-
-</span>
-
----
-
-## Evaluación
-
-<span style="font-size: 22.0pt; ">
-
-
-
-![](media/electro_eval.png)
-
-</span>
-
----
-
-## Proyecto: Ejemplo
-
-<span style="font-size: 20.0pt; ">
-
-
-<iframe  width="800" height="400" src="media/proy_electro_clasifica_colores.mp4" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</span>
-
----
-
-## Proyecto: Ejemplo
-
-<span style="font-size: 20.0pt; ">
-
-
-<iframe  width="800" height="400" src="media/proy_electro_carrera_remoto.mp4" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</span>
-
----
-
-## Proyecto: Ejemplo
-
-<span style="font-size: 20.0pt; ">
-
-
-<iframe  width="800" height="400" src="media/proy_electro_sube_gradas.mp4" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-</span>
-
           </textarea>
         </section>
       </div>
