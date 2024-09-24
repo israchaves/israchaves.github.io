@@ -55,22 +55,19 @@
 <img  width="900" height="130" src="media/logo_slides.jpg">
 ---
 
-## Agenda
+## Objetivos de la clase 
 
 
 <font size=6>
 
-* Concepto
-* Tipos
-* Biestables
-* Circuito integrado 555
-* Monoestable
-* Astable
+* Comprender el concepto de osciladores en un circuito
+* Dominar las gráficas de salida de señal de biestables
+* Aplicar los monoestables y astables en circuitos generadores de señal
 
 </font>
 
 ---
-## Concepto
+## Concepto de oscilador
 
 
 
@@ -85,11 +82,7 @@
 
 
 ---
-## Concepto
 
-
-![](media/oscilador.png)
----
 
 ## Concepto
 
@@ -109,33 +102,10 @@ audio.
 * Un oscilador de audio produce frecuencias en el rango de audio, sobre 16Hz a 20kHz
 * Un oscilador de RF produce señales en la frecuencia de radio (RF) intervalo de aproximadamente 100kHz a 100GHz
 
-**Existen 2 tipos principales:** Oscilador lineal (armónico) ó No lineal (de relajación)
+**Existen 2 tipos principales:** Oscilador lineal (armónico) ó **No lineal (de relajación)**
 
 </font>
 
-
-<!-- <div id="left">
-
-<font size=6>
-
-<p style='text-align: justify;'>
-
-**Etapa 1:** Microgrietas, debido a la deformación plástica cíclica
-
-**Etapa 2:** Las microgrietas se convierten en macro. Y se forman mesetas paralelas, separadas por crestas longitudinales.
-
-**Etapa 3:** Ocurre en el ciclo de esfuerzo final, cuando la pieza ya no resiste cargas y falla.
-
-</p>
-</font>
-
-</div>
-
-<div id="right">
-
-<img align="right" width="400" height="500" src="media/falla1.png">
-
-</div> -->
 
 ---
 
@@ -145,89 +115,17 @@ audio.
 
 * Producen una señal de salida repetitiva no senoidal, tal como
 una onda triangular u onda cuadrada
+* Los multivibradores son los más utilizados 
 * Consta de un bucle de realimentación, con un dispositivo de conmutación tal como un transistor, un
 comparador, un relé, etc.
 * Esa conmutación carga un capacitor ó inductor hasta que se
 alcanza un nivel umbral, entonces se descarga de nuevo
 * El período del oscilador depende de la constante de tiempo $\tau $
 del circuito del capacitor
-*  La carga y descarga generan una
-onda discontinua en un intervalo de aproximadamente 100kHz a
-100GHz
-
-</font>
-
-
-
----
-
-## Osciladores de relajación
-
-<font size=6>
-
-Se dividen en 2 clases:
-
-<div id="left">
-
-<p style="text-align: center;">
-
-**Diente de sierra ó Flyback:**
-* El capacitor se carga lentamente
-* Luego se da una rápida descarga casi al
-instante
-* Así, sólo hay una *rampa* en la forma de onda
-de salida que ocupa prácticamente todo el período
-
-</p>
-
-</div>
-
-<div id="right">
-
-**Multivibrador:**
-* El capacitor se carga y descarga lentamente
-* La forma de la onda de salida consta de dos partes: una rampa de aumento y
-una rampa decreciente
-
-</div>
-
-</font>
-
----
-
-## Osciladores de relajación: Aplicaciones
-
-<font size=6>
-
-* Luces parpadeantes, generadores de funciones
-* Inversores y fuentes de alimentación conmutadas
-* Señales de reloj de circuitos digitales
-
-</font>
-
-<iframe width="400" height="400" src="https://theengineeringmindset.com/wp-content/uploads/2017/12/simple-inverter-circuit-animation.gif" title="Falstad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<img width="250" height="200" src="media/quartz.jpg">
-
----
-
-## Osciladores de relajación
-
-
-<font size=6>
-
-* Se utilizan ampliamente
-* Más fáciles de diseñar que los osciladores lineales
-* Más fáciles de fabricar en los chips de circuitos integrados, ya
-que no requieren inductores
-* Se pueden ajustar en un amplio rango de frecuencias
-* Tienen más ruido de fase y una estabilidad de la frecuencia pobre
-respecto de los osciladores lineales
 * Actualmente son construidos con circuitos integrados dedicados
 como el chip temporizador 555
 
 </font>
-
 
 ---
 
@@ -274,18 +172,6 @@ Algunos biestables, son *síncronos*, es decir que guardan el estado en memoria,
 
 
 ---
-
-## Biestables: Flip-flop RS
-
-
-<font size=6>
-
-Es un flip-flop asíncrono, que guarda en la patilla *Q*, la orden que se
-le entrega en las patillas *SET* y *RESET* (de allí el nombre).
-</font>
-
-![](media/rs.png)
----
 ## Biestables: Flip-flop JK
 
 
@@ -298,20 +184,6 @@ como un *RESET*, la diferencia es que no hay estado prohibido.
 </font>
 
 ![](media/jk.png)
-
----
-
-## Biestables: Flip-flop D
-
-
-<font size=6>
-
-Es un flip-flop síncrono que guarda en la patilla Q el estado de la
-patilla *D*
-
-</font>
-
-![](media/d.png)
 
 ---
 
@@ -373,24 +245,6 @@ $$ -->
 
 
 
-
-
----
-
-
-## Circuito integrado 555
-
-<font size=6>
-
-* Chip analógico-digital a base de comparadores analógicos y
-circuitos biestables digitales.
-* Una conexión en serie de 3 resistores, ajusta los niveles de referencia de los comparadores a $ \frac{2V_{CC}}{3}$ y $\frac{V_{CC}}{3}$, que a su vez ajustan
-la unidad biestable
-
-
-</font>
-
-![](media/oscila1.png)
 
 
 ---
