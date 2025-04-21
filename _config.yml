@@ -59,7 +59,7 @@ yandex_site_verification :
 mastodon:
   username               : "mastodon.social/@israchaves"
 twitter:
-  username               : &twitter
+  username               : @israchaves
 facebook:
   username               :
   app_id                 :
@@ -102,7 +102,7 @@ author:
   gitlab           : "israchaves"
   google_plus      :
   keybase          :
-  instagram        : #"israchaves01"
+  instagram        : "israchaves01"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "israchaves"
@@ -112,7 +112,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"israchaves"
+  twitter          : "@israchaves"
   mastodon         : "mastodon.social/@israchaves"
   vine             :
   weibo            :
