@@ -3,10 +3,10 @@ main:
 
   #- title: "Talks"
   #  url: /talks/
-  - title: "Lectures"
+  - title: "Clases"
     url: /ucr/
 
-  - title: "Publications"
+  - title: "Publicaciones"
     url: /publications/
 
   #- title: "Teaching Resources"
@@ -19,7 +19,7 @@ main:
   #  url: /year-archive/
     
   #- title: "Booking Page"
-  - title: "Booking Page"
+  - title: "Reserva de consulta"
     url: /booking/
 
   #- title: "CV"
