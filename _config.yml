@@ -58,8 +58,8 @@ yandex_site_verification :
 # Social Sharing
 mastodon:
   username               : "mastodon.social/@israchaves"
-twitter:
-  username               : "@israchaves"
+# twitter:
+#   username               : "@israchaves"
 facebook:
   username               :
   app_id                 :
@@ -84,9 +84,9 @@ analytics:
 author:
   name             : "Israel Chaves Arbaiza"
   avatar           : "website_me.jpg"
-  bio              : "Mechatronics engineer | Mechanical engineering's junior professor at University of Costa Rica (UCR)|        Robotics researcher at Autonomous Robots and Cognitive Systems Laboratory (ARCOS-Lab at INII, UCR)"
+  bio              : "Ing. Mecatrónico | Profesor en la Escuela de Ingeniería Mecánica, UCR | Investigador en el Laboratorio de Robots Autónomos y Sistemas Cognitivos (ARCOS-Lab) del INII, UCR"
   location         : "San José, Costa Rica"
-  employer         : "University of Costa Rica"
+  employer         : "Universidad de Costa Rica"
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=a9TAEUgAAAAJ"
   email            : "israel.chaves@ucr.ac.cr"
@@ -102,7 +102,7 @@ author:
   gitlab           : "israchaves"
   google_plus      :
   keybase          :
-  instagram        : "israchaves01"
+  instagram        : 
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : "israchaves"
@@ -112,7 +112,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@israchaves"
+  twitter          : 
   mastodon         : "mastodon.social/@israchaves"
   vine             :
   weibo            :

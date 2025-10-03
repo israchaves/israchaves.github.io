@@ -8,7 +8,7 @@ venue: 'III Jornadas de Investigación de la Facultad de Ingeniería, UCR'
 paperurl: 'https://revistas.ucr.ac.cr/index.php/ingenieria/article/view/50666/50718'
 #citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
-In this work we explained the development of ARCOS-Lab’s humanoid robot as a whole body
+En este trabajo se explica la construcción y ensamblado del cuerpo completo del robot humanoide del ARCOS-Lab
 
 [Download paper here](https://revistas.ucr.ac.cr/index.php/ingenieria/article/view/50666/50718)
 
