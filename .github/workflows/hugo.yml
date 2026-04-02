@@ -24,7 +24,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.125.0 # Versión estable de Hugo (ajustable si necesitas una específica)
+      HUGO_VERSION: 0.146.0 # Versión estable de Hugo (ajustable si necesitas una específica)
     steps:
       - name: Install Hugo CLI
         run: |
