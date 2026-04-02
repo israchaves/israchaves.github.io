@@ -1,0 +1,36 @@
+baseURL = 'https://israchaves.github.io/'
+languageCode = 'es-es'
+title = 'Sitio personal de Israel Chaves'
+theme = 'PaperMod' #se puede cambiar el tema a gusto
+
+
+
+# -------------------
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true	# Para que no haya Warnings de render unsafe con mis HTML
+# -------------------
+
+[menu]
+  [[menu.main]]
+    name = "CV"
+    pageRef = "/cv"
+    weight = 10
+  [[menu.main]]
+    name = "Cursos"
+    pageRef = "/cursos"
+    weight = 20
+  [[menu.main]]
+    name = "Investigación"
+    pageRef = "/articulos"
+    weight = 30
+  [[menu.main]]
+    name = "Tutoriales"
+    pageRef = "/tutoriales"
+    weight = 40
+
+# Habilitar etiquetas para los tutoriales
+[taxonomies]
+  tag = "tags"
