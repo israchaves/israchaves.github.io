@@ -16,15 +16,15 @@ theme = 'PaperMod' #se puede cambiar el tema a gusto
 [menu]
   [[menu.main]]
     name = "CV"
-    pageRef = "/cv"
+    url = "/docs/cv-israel-chaves-academic.pdf"
     weight = 10
   [[menu.main]]
     name = "Cursos"
     pageRef = "/cursos"
     weight = 20
   [[menu.main]]
-    name = "Investigación"
-    pageRef = "/articulos"
+    name = "Publicaciones"
+    pageRef = "/publicaciones"
     weight = 30
   [[menu.main]]
     name = "Tutoriales"
