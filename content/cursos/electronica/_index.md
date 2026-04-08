@@ -10,9 +10,9 @@ menu:
 tags: ["electronica", "programacion", "backend"]
 ---
 
-# 🐍 Curso de Python: De Cero a Experto
+# 🔋 Electrónica Básica para Ingeniería Mecánica 
 
-Bienvenido al curso completo de Python. Este material está diseñado para llevarte desde los conceptos básicos hasta la creación de aplicaciones reales.
+Bienvenido al curso completo de Python. Este material está diseñado para brindar al estudiante conceptos, fundamentos y conocimiento de aplicaciones de la electrónica.
 
 Puedes navegar por las presentaciones interactivas de cada módulo a continuación. Todas las presentaciones son compatibles con móviles y pantallas completas.
 
@@ -22,11 +22,13 @@ Puedes navegar por las presentaciones interactivas de cada módulo a continuaci�
 
 Haz clic en cada módulo para abrir la presentación interactiva.
 
-### Módulo 1: Fundamentos
-1. **[Clase 01: Introducción a los materiales semiconductores](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.html)**
-   - *Temas:* Instalación, VS Code, primer "Hola Mundo".
-2. **[Clase 02: Diodos](/presentaciones/algoritmos/clase2_electronica_unidad02_diodos.html)**
-   - *Temas:* Strings, enteros, booleanos, operaciones básicas.
+### Módulo 1: Electrónica Analógica
+1. **[Clase 01: Introducción a los materiales semiconductores](https://view.genially.com/69ba9d7a15d0cd2b5178479b/presentation-unidad-1-introduccion-a-los-materiales-semiconductores)**
+   - *Temas:* estructura atómica, material tipo N y tipo P.
+2. **[Clase 02: Diodos](/presentaciones/electronica/clase2_electronica_unidad02_diodos.html)**
+   - *Temas:* diodos, características y aplicaciones.
+3. **[Clase 03: BJT](/presentaciones/electronica/clase3_electronica_unidad2_bjt.html)**
+   - *Temas:* BJT, características y aplicaciones.
 
  <!-- Las clases siguientes las agrego luego    -->
 <!-- 3. **[Clase 03: Estructuras de Control](/presentaciones/curso-python/clase-03.html)**
@@ -44,7 +46,7 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 7. **[Clase 07: Manejo de Errores y Archivos](/presentaciones/curso-python/clase-07.html)**
    - *Temas:* Try/except, lectura/escritura de archivos. -->
 
----
+<!-- ---
 
 ## 📥 Recursos Descargables
 
@@ -54,13 +56,13 @@ Aquí puedes descargar el material complementario en formato PDF para estudiar s
 | :--- | :--- | :--- |
 | **Completo** | Todas las diapositivas del curso en un solo archivo. | [📄 Descargar PDF Completo](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
 | **Módulo 1** | Resumen de fundamentos y configuración. | [📄 PDF Módulo 1](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
-| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) |
+| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
 
 ---
 
 ## 💡 ¿Cómo usar este curso?
 1. Abre cada clase en orden secuencial.
 2. Usa la tecla `F` o el icono de esquina para ver en **pantalla completa**.
-3. Descarga los PDFs para tomar notas mientras ves la presentación.
+<!-- 3. Descarga los PDFs para tomar notas mientras ves la presentación.
 
-¿Tienes dudas? Revisa la sección de [Tutoriales](/tutoriales/) para guías paso a paso sobre los temas vistos aquí.
+¿Tienes dudas? Revisa la sección de [Tutoriales](/tutoriales/) para guías paso a paso sobre los temas vistos aquí. -->

@@ -3,7 +3,40 @@ languageCode = 'es-es'
 title = 'Sitio personal de Israel Chaves'
 theme = 'PaperMod' #se puede cambiar el tema a gusto
 
+# --- Configuración del Perfil (Profile Mode) ---
+[params]
+  # Habilitar el modo perfil en la página de inicio
+  homeInfoParams = { Title = "Hola, soy Israel Chaves 👋", Content = "Investigador, Docente y Desarrollador. Bienvenido a mi portafolio académico y profesional." }
+  
+  # Activar modo perfil (esto muestra la foto y redes)
+  profileMode = { enabled = true, title = "Israel Chaves", subtitle = "MSc. en Ciencias de la Computación", imageUrl = "profile.jpg", imageTitle = "Foto de perfil", imageWidth = 150, imageHeight = 150 }
 
+  # --- Redes Sociales ---
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/israchaves"
+    title = "GitHub"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/israchaves"
+    title = "LinkedIn"
+  
+  [[params.socialIcons]]
+    name = "bluesky"
+    url = "https://bsky.app/profile/israchaves.bsky.social"
+    title = "Bluesky"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:israel.chaves@ucr.ac.cr"
+    title = "Email"
+
+    socialIconsInFooter = true # (Nota: verifica si tu versión de PaperMod soporta esto nativamente)
+
+  # --- Información de Contacto Adicional (Opcional, texto libre) ---
+  # PaperMod no tiene un campo nativo para "dirección/teléfono" en el sidebar,
+  # pero podemos usar el subtítulo o agregarlo en el contenido de homeInfoParams si quisieras.
 
 # -------------------
 
