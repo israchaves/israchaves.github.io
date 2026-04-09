@@ -2,25 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/backend/</loc>
+    <loc>http://localhost:1313/cursos/electronica/</loc>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/cursos/elementos2/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/cursos/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/dise%C3%B1o/</loc>
+    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/electronica/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cursos/electronica/</loc>
+    <loc>http://localhost:1313/tags/elementos/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/publicaciones/iwobi/</loc>
+    <loc>http://localhost:1313/tags/engranes/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/programacion/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/publicaciones/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -29,7 +32,24 @@
     <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutoriales/</loc>
+    <loc>http://localhost:1313/reserva/</loc>
     <lastmod>2026-04-01T12:21:47-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/capability/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publicaciones/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/robotics/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/publicaciones/iwobi/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/two-arm/</loc>
+    <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutoriales/</loc>
   </url>
 </urlset>

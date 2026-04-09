@@ -9,7 +9,7 @@ theme = 'PaperMod' #se puede cambiar el tema a gusto
   homeInfoParams = { Title = "Hola, soy Israel Chaves 👋", Content = "Investigador, Docente y Desarrollador. Bienvenido a mi portafolio académico y profesional." }
   
   # Activar modo perfil (esto muestra la foto y redes)
-  profileMode = { enabled = true, title = "Israel Chaves", subtitle = "MSc. en Ciencias de la Computación", imageUrl = "profile.jpg", imageTitle = "Foto de perfil", imageWidth = 150, imageHeight = 150 }
+  profileMode = { enabled = true, title = "Israel Chaves", subtitle = "Ing. Mecatrónica", imageUrl = "profile.jpg", imageTitle = "Foto de perfil", imageWidth = 150, imageHeight = 150 }
 
   # --- Redes Sociales ---
   [[params.socialIcons]]
@@ -58,6 +58,10 @@ theme = 'PaperMod' #se puede cambiar el tema a gusto
   [[menu.main]]
     name = "Publicaciones"
     pageRef = "/publicaciones"
+    weight = 30
+  [[menu.main]]
+    name = "Reserva de consulta"
+    pageRef = "/reserva"
     weight = 30
   [[menu.main]]
     name = "Tutoriales"

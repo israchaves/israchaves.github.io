@@ -9,10 +9,10 @@
     <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Backend</title>
-      <link>http://localhost:1313/tags/backend/</link>
+      <title>Diseño</title>
+      <link>http://localhost:1313/tags/dise%C3%B1o/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/backend/</guid>
+      <guid>http://localhost:1313/tags/dise%C3%B1o/</guid>
       <description></description>
     </item>
     <item>
@@ -23,10 +23,45 @@
       <description></description>
     </item>
     <item>
+      <title>Elementos</title>
+      <link>http://localhost:1313/tags/elementos/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/elementos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engranes</title>
+      <link>http://localhost:1313/tags/engranes/</link>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/engranes/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Programacion</title>
       <link>http://localhost:1313/tags/programacion/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/programacion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capability</title>
+      <link>http://localhost:1313/tags/capability/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/capability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Robotics</title>
+      <link>http://localhost:1313/tags/robotics/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Two-Arm</title>
+      <link>http://localhost:1313/tags/two-arm/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/two-arm/</guid>
       <description></description>
     </item>
   </channel>

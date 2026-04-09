@@ -1,20 +1,20 @@
 ---
-title: "Electrónica Básica para Ing. Mecánica"
+title: "🔋 Electrónica Básica para Ing. Mecánica"
 date: 2026-04-02
-description: "Aprende Python desde los fundamentos hasta conceptos avanzados con presentaciones interactivas y recursos descargables."
+description: "Esta página contiene las presentaciones del curso IM0412."
 menu:
   main:
     parent: "Cursos"
     weight: 10
 # Opcional: Puedes agregar etiquetas si tu tema lo soporta
-tags: ["electronica", "programacion", "backend"]
+tags: ["electronica", "programacion"]
 ---
 
-# 🔋 Electrónica Básica para Ingeniería Mecánica 
+# 📃 Descripción
 
-Bienvenido al curso completo de Python. Este material está diseñado para brindar al estudiante conceptos, fundamentos y conocimiento de aplicaciones de la electrónica.
+Bienvenido al curso completo de Electrónica Básica para Ing. Mecánica. Este material está diseñado para brindar al estudiante conceptos, fundamentos y conocimiento de aplicaciones de la electrónica.
 
-Puedes navegar por las presentaciones interactivas de cada módulo a continuación. Todas las presentaciones son compatibles con móviles y pantallas completas.
+Puedes navegar por las presentaciones interactivas de cada módulo a continuación. **Todas las presentaciones son compatibles con móviles y pantallas completas**.
 
 ---
 

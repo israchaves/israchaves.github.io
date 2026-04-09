@@ -1,5 +1,5 @@
 ---
-title: "Elementos de Máquinas II"
+title: "🔩 Elementos de Máquinas II"
 date: 2026-04-02
 description: "Este es un curso que trata la selección o dimensionado de engranes de envolvente, ejes rotatorios, correas y cadenas de transmisión, y se presentan los tipos de acoples, frenos y embragues industriales"
 menu:
@@ -10,7 +10,7 @@ menu:
 tags: ["elementos", "diseño", "engranes"]
 ---
 
-# 🔩 Elementos de Máquinas II
+# 📃 Elementos de Máquinas II
 
 Este curso es la continuación temática de Elementos de Máquinas I, y por ello se analizan los principios de operación, procedimientos de diseño y de selección de componentes muy comunes en aplicaciones de maquinaria industrial. Como la práctica de la ingeniería
 mecánica es en esencia la de invención de máquinas, se incorporan algunas actividades de
@@ -29,12 +29,12 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 1. **[Clase 01: Engranes](https://view.genially.com/69c13bd2f313adcf289a78d1)**
    - *Temas:* tipos de engranes, aplicaciones y su manufactura.
 
-2. **[Clase 02: Transmisiones planetarias](/presentaciones/algoritmos/clase2_electronica_unidad02_diodos.html)**
-   - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. Perfil envolvente
+<!-- 2. **[Clase 02: Transmisiones planetarias](/presentaciones/algoritmos/clase2_electronica_unidad02_diodos.html)**
+   - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. Perfil envolvente -->
 
-### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
+<!-- ### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
 3. **[Clase 03: Cálculo de resistencia Lewis](/presentaciones/curso-python/clase-03.html)**
-   - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga.
+   - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga. -->
 
 <!-- 4. **[Clase 04: Cálculo resistencia AGMA](/presentaciones/curso-python/clase-04.html)**
    - *Temas:* cálculo de resistencia AGMA, fallas por fatiga y picadura. -->
@@ -54,7 +54,7 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 ### Módulo 5: Selección de frenos, embragues, acoples
 
 
----
+<!-- ---
 
 ## 📥 Recursos Descargables
 
@@ -64,13 +64,13 @@ Aquí puedes descargar el material complementario en formato PDF para estudiar s
 | :--- | :--- | :--- |
 | **Completo** | Todas las diapositivas del curso en un solo archivo. | [📄 Descargar PDF Completo](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
 | **Módulo 1** | Resumen de fundamentos y configuración. | [📄 PDF Módulo 1](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
-<!-- | **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
+| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
 
 ---
 
 ## 💡 ¿Cómo usar este curso?
 1. Abre cada clase en orden secuencial.
 2. Usa la tecla `F` o el icono de esquina para ver en **pantalla completa**.
-3. Descarga los PDFs para tomar notas mientras ves la presentación.
+<!-- 3. Descarga los PDFs para tomar notas mientras ves la presentación. -->
 
 <!-- ¿Tienes dudas? Revisa la sección de [Tutoriales](/tutoriales/) para guías paso a paso sobre los temas vistos aquí. -->

@@ -1,66 +1,26 @@
 ---
-title: "IEEE International Work Conference on Bioinspired Intelligence (IWOBI)"
-date: 2026-04-02
-description: "The purpose of the work conference is to present and discuss novel ideas, work and results related to alternative techniques for bioinspired approaches, which depart from mainstream procedures."
+title: "Smart placement of a two-arm assembly for an everyday object manipulation humanoid robot based on capability maps"
+date: 2018-07-20
+description: "Working with ARCOS-Lab kinematics simulator to try manipulation tasks in a collaborative way accord to dual capability"
 menu:
   main:
     parent: "Publicaciones"
     weight: 10
 # Opcional: Puedes agregar etiquetas si tu tema lo soporta
-tags: ["electronica", "programacion", "backend"]
+tags: ["two-arm", "capability", "robotics"]
 ---
 
-# 🐍 Curso de Python: De Cero a Experto
+# Conferencia
 
-Bienvenido al curso completo de Python. Este material está diseñado para llevarte desde los conceptos básicos hasta la creación de aplicaciones reales.
+* IEEE International Work Conference on Bioinspired Intelligence (IWOBI)
+* Fecha: 20/07/2018
+* [Enlace del artículo](https://ieeexplore.ieee.org/document/8464192)
 
-Puedes navegar por las presentaciones interactivas de cada módulo a continuación. Todas las presentaciones son compatibles con móviles y pantallas completas.
+# 🦾 Abstract
 
----
+ A robot that will execute everyday object manipulation tasks needs a competent body that can handle as many different objects as possible in as many ways as possible. To accomplish this, we must design the robot body in such a way that will allow it to achieve many different ways to manipulate the objects. In this work, we present a design method to mount a two-arm assembly in a torso and a mobile base (to complete a humanoid robot) taking into account a voxelized structure of points to reach and a variable orientation and relative position of both arms. We make use of the concept of capability maps to calculate a score for different possible two-arm assembly placements. An object to manipulate is selected. In particular, we are using the object size as the most important manipulation feature. We test many possible arm mounting configurations with many different object positions and we run an object reaching simulation for each of these combinations. The successfulness of each of these trails is used to derive a capability map. A score for each map (that corresponds to a different arm mounting configuration) is derived and used to select the final placement of the robot. With this work, we present an effective process to determine the best arms bases placement accord to the collaborative reaching results for a two-arm humanoid robot. DOI: 10.1109/IWOBI.2018.8464192
 
-## 📚 Temario del Curso
 
-Haz clic en cada módulo para abrir la presentación interactiva.
+📄 [Descargue el artículo aquí](/docs/smart_placement_two_arm_assembly_everyday_object_manipulation_based_on_capability_maps)
 
-### Módulo 1: Fundamentos
-1. **[Clase 01: Introducción a los materiales semiconductores](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.html)**
-   - *Temas:* Instalación, VS Code, primer "Hola Mundo".
-2. **[Clase 02: Diodos](/presentaciones/algoritmos/clase2_electronica_unidad02_diodos.html)**
-   - *Temas:* Strings, enteros, booleanos, operaciones básicas.
 
- <!-- Las clases siguientes las agrego luego    -->
-<!-- 3. **[Clase 03: Estructuras de Control](/presentaciones/curso-python/clase-03.html)**
-   - *Temas:* Condicionales (if/else), bucles (for/while).
-
-### Módulo 2: Intermedio
-4. **[Clase 04: Funciones y Modularidad](/presentaciones/curso-python/clase-04.html)**
-   - *Temas:* Definición de funciones, parámetros, retorno de valores.
-5. **[Clase 05: Estructuras de Datos](/presentaciones/curso-python/clase-05.html)**
-   - *Temas:* Listas, tuplas, diccionarios, sets.
-
-### Módulo 3: Avanzado
-6. **[Clase 06: Programación Orientada a Objetos](/presentaciones/curso-python/clase-06.html)**
-   - *Temas:* Clases, objetos, herencia, polimorfismo.
-7. **[Clase 07: Manejo de Errores y Archivos](/presentaciones/curso-python/clase-07.html)**
-   - *Temas:* Try/except, lectura/escritura de archivos. -->
-
----
-
-## 📥 Recursos Descargables
-
-Aquí puedes descargar el material complementario en formato PDF para estudiar sin conexión.
-
-| Módulo | Descripción | Enlace de Descarga |
-| :--- | :--- | :--- |
-| **Completo** | Todas las diapositivas del curso en un solo archivo. | [📄 Descargar PDF Completo](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
-| **Módulo 1** | Resumen de fundamentos y configuración. | [📄 PDF Módulo 1](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
-| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) |
-
----
-
-## 💡 ¿Cómo usar este curso?
-1. Abre cada clase en orden secuencial.
-2. Usa la tecla `F` o el icono de esquina para ver en **pantalla completa**.
-3. Descarga los PDFs para tomar notas mientras ves la presentación.
-
-¿Tienes dudas? Revisa la sección de [Tutoriales](/tutoriales/) para guías paso a paso sobre los temas vistos aquí.
