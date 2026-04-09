@@ -12,10 +12,7 @@ tags: ["elementos", "diseño", "engranes"]
 
 # 📃 Elementos de Máquinas II
 
-Este curso es la continuación temática de Elementos de Máquinas I, y por ello se analizan los principios de operación, procedimientos de diseño y de selección de componentes muy comunes en aplicaciones de maquinaria industrial. Como la práctica de la ingeniería
-mecánica es en esencia la de invención de máquinas, se incorporan algunas actividades de
-diseño para estimular la creatividad y la intuición como instrumentos de apoyo para
-solucionar problemas propios del campo en el contexto nacional
+Este curso es la continuación temática de Elementos de Máquinas I, y se analizan los principios de operación, procedimientos de diseño y de selección de componentes muy comunes en aplicaciones de maquinaria industrial. 
 
 Puedes navegar por las presentaciones interactivas de cada módulo a continuación. **Todas las presentaciones son compatibles con móviles y pantallas completas**.
 
