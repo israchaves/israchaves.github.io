@@ -1,8 +1,7 @@
-+++
-date = '2026-04-01T12:21:47-06:00'
-draft = true
-title = 'Reserva'
-+++
+---
+title: "Reserva"
+description: "Página para reservar reuniones virtuales de consulta"
+---
 
 Mediante esta página, los estudiantes pueden reservar automáticamente, un espacio de consulta virtual, para atender sus dudas. 
 
