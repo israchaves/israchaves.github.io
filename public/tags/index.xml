@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Sitio personal de Israel Chaves</title>
+    <title>Tags on Sitio personal de Israel Chaves Arbaiza</title>
     <link>http://localhost:1313/tags/</link>
-    <description>Recent content in Tags on Sitio personal de Israel Chaves</description>
+    <description>Recent content in Tags on Sitio personal de Israel Chaves Arbaiza</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
@@ -44,23 +44,30 @@
       <description></description>
     </item>
     <item>
-      <title>Capability</title>
-      <link>http://localhost:1313/tags/capability/</link>
-      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/capability/</guid>
+      <title>Humanoid Robot</title>
+      <link>http://localhost:1313/tags/humanoid-robot/</link>
+      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/humanoid-robot/</guid>
       <description></description>
     </item>
     <item>
       <title>Robotics</title>
       <link>http://localhost:1313/tags/robotics/</link>
-      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/robotics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capability</title>
+      <link>http://localhost:1313/tags/capability/</link>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/capability/</guid>
       <description></description>
     </item>
     <item>
       <title>Two-Arm</title>
       <link>http://localhost:1313/tags/two-arm/</link>
-      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 18 Oct 2019 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tags/two-arm/</guid>
       <description></description>
     </item>

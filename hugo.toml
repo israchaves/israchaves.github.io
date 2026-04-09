@@ -1,21 +1,49 @@
 baseURL = 'https://israchaves.github.io/'
 languageCode = 'es-es'
-title = 'Sitio personal de Israel Chaves'
-theme = 'PaperMod' #se puede cambiar el tema a gusto
+title = 'Sitio personal de Israel Chaves Arbaiza'
+theme = 'PaperMod'
 
-# --- Configuración del Perfil (Profile Mode) ---
+# ---------------------------------------------------------
+# CONFIGURACIÓN DE PARÁMETROS
+# ---------------------------------------------------------
 [params]
-  # Habilitar el modo perfil en la página de inicio
-  homeInfoParams = { Title = "Hola, soy Israel Chaves 👋", Content = "Investigador, Docente y Desarrollador. Bienvenido a mi portafolio académico y profesional." }
+  # Otros parámetros generales (ej. modo oscuro)
+  defaultTheme = "auto"
   
-  # Activar modo perfil (esto muestra la foto y redes)
-  profileMode = { enabled = true, title = "Israel Chaves", subtitle = "Ing. Mecatrónica", imageUrl = "profile.jpg", imageTitle = "Foto de perfil", imageWidth = 150, imageHeight = 150 }
+  # 1. Definir la tabla profileMode (Configuración principal)
+  [params.profileMode]
+    enabled = true
+    title = "Israel Chaves"
+    subtitle = "Ing. Mecatrónico | Docente e Investigador"
+    imageUrl = "images/website_me.jpg"
+    imageTitle = "Foto de perfil de Israel Chaves"
+    imageWidth = 180
+    imageHeight = 240
+
+  # 2. Definir la lista de botones (OJO: Los corchetes dobles [[...]])
+  # Esto debe ir DESPUÉS de cerrar la configuración anterior, pero sigue siendo parte de params.profileMode
+  [[params.profileMode.buttons]]
+    name = "Sobre Mí"
+    url = "about/"
+
+  [[params.profileMode.buttons]]
+    name = "Ver Cursos"
+    url = "cursos/"
+
+  [[params.profileMode.buttons]]
+    name = "Descargar CV"
+    url = "/docs/cv-israel-chaves-academic.pdf"
 
   # --- Redes Sociales ---
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/israchaves"
     title = "GitHub"
+
+  [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?hl=en&user=a9TAEUgAAAAJ"
+    title = "GoogleScholar"
   
   [[params.socialIcons]]
     name = "linkedin"
@@ -28,11 +56,19 @@ theme = 'PaperMod' #se puede cambiar el tema a gusto
     title = "Bluesky"
 
   [[params.socialIcons]]
+    name = "mastodon"
+    url = "https://mastodon.social/@israchaves"
+    title = "Mastodon"
+
+  [[params.socialIcons]]
     name = "email"
     url = "mailto:israel.chaves@ucr.ac.cr"
     title = "Email"
 
     socialIconsInFooter = true # (Nota: verifica si tu versión de PaperMod soporta esto nativamente)
+
+
+
 
   # --- Información de Contacto Adicional (Opcional, texto libre) ---
   # PaperMod no tiene un campo nativo para "dirección/teléfono" en el sidebar,
