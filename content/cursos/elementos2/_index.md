@@ -26,12 +26,12 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 1. **[Clase 01: Engranes](https://view.genially.com/69c13bd2f313adcf289a78d1)**
    - *Temas:* tipos de engranes, aplicaciones y su manufactura.
 
-<!-- 2. **[Clase 02: Transmisiones planetarias](/presentaciones/algoritmos/clase2_electronica_unidad02_diodos.html)**
-   - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. Perfil envolvente -->
+2. **[Clase 02: Transmisiones planetarias](/presentaciones/elementos/clase2.html)**
+   - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. Perfil envolvente
 
-<!-- ### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
-3. **[Clase 03: Cálculo de resistencia Lewis](/presentaciones/curso-python/clase-03.html)**
-   - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga. -->
+ ### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
+3. **[Clase 03: Cálculo de resistencia Lewis](/presentaciones/elementos/clase3.html)**
+   - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga.
 
 <!-- 4. **[Clase 04: Cálculo resistencia AGMA](/presentaciones/curso-python/clase-04.html)**
    - *Temas:* cálculo de resistencia AGMA, fallas por fatiga y picadura. -->
