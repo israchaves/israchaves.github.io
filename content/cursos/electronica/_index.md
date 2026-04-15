@@ -27,7 +27,7 @@ Haz clic en cada módulo para abrir la presentación interactiva.
    - *Temas:* estructura atómica, material tipo N y tipo P.
 2. **[Clase 02: Diodos](/presentaciones/electronica/clase2_electronica_unidad02_diodos.html)**
    - *Temas:* diodos, características y aplicaciones.
-3. **[Clase 03: BJT](/presentaciones/electronica/clase3_electronica_unidad2_bjt.html)**
+3. **[Clase 03: BJT](/presentaciones/electronica/clase_BJT.html)**
    - *Temas:* BJT, características y aplicaciones.
 
  <!-- Las clases siguientes las agrego luego    -->
