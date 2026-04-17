@@ -27,11 +27,11 @@ Haz clic en cada módulo para abrir la presentación interactiva.
    - *Temas:* tipos de engranes, aplicaciones y su manufactura.
 
 2. **[Clase 02: Transmisiones planetarias](/presentaciones/elementos/clase2.html)**
-   - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. Perfil envolvente
+   - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. Perfil envolvente. [📄 PDF](/presentaciones/elementos/clase2.pdf)
 
  ### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
 3. **[Clase 03: Cálculo de resistencia Lewis](/presentaciones/elementos/clase3.html)**
-   - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga.
+   - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga. [📄 PDF](/presentaciones/elementos/clase3.pdf)
 
 <!-- 4. **[Clase 04: Cálculo resistencia AGMA](/presentaciones/curso-python/clase-04.html)**
    - *Temas:* cálculo de resistencia AGMA, fallas por fatiga y picadura. -->
@@ -49,19 +49,6 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 ### Módulo 4: Transmisiones mecánicas con elementos flexibles (correas y cadenas)
 
 ### Módulo 5: Selección de frenos, embragues, acoples
-
-
-
-
-## 📥 Recursos Descargables
-
-Aquí puedes descargar el material complementario en formato PDF para estudiar sin conexión.
-
-| Clase | Descripción | Enlace de Descarga |
-| :--- | :--- | :--- |
-| **02** | Transmisiones planetarias | [📄 PDF](/presentaciones/elementos/clase2.pdf) |
-| **03** | Cálculo de resistencia Lewis | [📄 PDF](/presentaciones/elementos/clase3.pdf) |
-<!-- ---| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
 
 ---
 

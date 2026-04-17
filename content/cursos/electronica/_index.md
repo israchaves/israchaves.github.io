@@ -28,7 +28,7 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 2. **[Clase 02: Diodos](/presentaciones/electronica/clase2_electronica_unidad02_diodos.html)**
    - *Temas:* diodos, características y aplicaciones.
 3. **[Clase 03: BJT](/presentaciones/electronica/clase_BJT.html)**
-   - *Temas:* BJT, características y aplicaciones.
+   - *Temas:* BJT, características y aplicaciones. [📄 PDF](/presentaciones/electronica/clase04_electro_polarizacion_BJT.pdf)
 
  <!-- Las clases siguientes las agrego luego    -->
 <!-- 3. **[Clase 03: Estructuras de Control](/presentaciones/curso-python/clase-03.html)**
@@ -48,21 +48,11 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 
 
 
-## 📥 Recursos Descargables
-
-Aquí puedes descargar el material complementario en formato PDF para estudiar sin conexión.
-
-| Clase| Descripción | Enlace de Descarga |
-| :--- | :--- | :--- |
-| **03** | BJT | [📄 PDF](/presentaciones/electronica/clase04_electro_polarizacion_BJT.pdf) |
-<!--| **Módulo 1** | Resumen de fundamentos y configuración. | [📄 PDF Módulo 1](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
- ---| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
-
 ---
 
 ## 💡 ¿Cómo usar este curso?
 1. Abre cada clase en orden secuencial.
 2. Usa la tecla `F` o el icono de esquina para ver en **pantalla completa**.
-<!-- 3. Descarga los PDFs para tomar notas mientras ves la presentación.
+3. Descarga los PDFs para tomar notas mientras ves la presentación.
 
-¿Tienes dudas? Revisa la sección de [Tutoriales](/tutoriales/) para guías paso a paso sobre los temas vistos aquí. -->
+<!-- ¿Tienes dudas? Revisa la sección de [Tutoriales](/tutoriales/) para guías paso a paso sobre los temas vistos aquí. -->
