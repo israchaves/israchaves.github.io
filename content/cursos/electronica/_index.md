@@ -46,17 +46,17 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 7. **[Clase 07: Manejo de Errores y Archivos](/presentaciones/curso-python/clase-07.html)**
    - *Temas:* Try/except, lectura/escritura de archivos. -->
 
-<!-- ---
+
 
 ## 📥 Recursos Descargables
 
 Aquí puedes descargar el material complementario en formato PDF para estudiar sin conexión.
 
-| Módulo | Descripción | Enlace de Descarga |
+| Clase| Descripción | Enlace de Descarga |
 | :--- | :--- | :--- |
-| **Completo** | Todas las diapositivas del curso en un solo archivo. | [📄 Descargar PDF Completo](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
-| **Módulo 1** | Resumen de fundamentos y configuración. | [📄 PDF Módulo 1](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
-| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
+| **03** | BJT | [📄 PDF](/presentaciones/electronica/clase04_electro_polarizacion_BJT.pdf) |
+<!--| **Módulo 1** | Resumen de fundamentos y configuración. | [📄 PDF Módulo 1](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
+ ---| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
 
 ---
 

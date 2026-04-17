@@ -51,23 +51,23 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 ### Módulo 5: Selección de frenos, embragues, acoples
 
 
-<!-- ---
+
 
 ## 📥 Recursos Descargables
 
 Aquí puedes descargar el material complementario en formato PDF para estudiar sin conexión.
 
-| Módulo | Descripción | Enlace de Descarga |
+| Clase | Descripción | Enlace de Descarga |
 | :--- | :--- | :--- |
-| **Completo** | Todas las diapositivas del curso en un solo archivo. | [📄 Descargar PDF Completo](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
-| **Módulo 1** | Resumen de fundamentos y configuración. | [📄 PDF Módulo 1](/presentaciones/algoritmos/clase01-mecatronica-u01-introduccion.pdf) |
-| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
+| **02** | Transmisiones planetarias | [📄 PDF](/presentaciones/elementos/clase2.pdf) |
+| **03** | Cálculo de resistencia Lewis | [📄 PDF](/presentaciones/elementos/clase3.pdf) |
+<!-- ---| **Código** | Archivos `.py` con los ejercicios resueltos. | [💾 Descargar Código ZIP](/presentaciones/algoritmos/algoritmos.zip) | -->
 
 ---
 
 ## 💡 ¿Cómo usar este curso?
 1. Abre cada clase en orden secuencial.
 2. Usa la tecla `F` o el icono de esquina para ver en **pantalla completa**.
-<!-- 3. Descarga los PDFs para tomar notas mientras ves la presentación. -->
+3. Descarga los PDFs para tomar notas mientras ves la presentación.
 
 <!-- ¿Tienes dudas? Revisa la sección de [Tutoriales](/tutoriales/) para guías paso a paso sobre los temas vistos aquí. -->
