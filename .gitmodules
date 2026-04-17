@@ -1,3 +1,6 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+[submodule "static/media"]
+	path = static/media
+	url = https://github.com/israchaves/media-assets.git
