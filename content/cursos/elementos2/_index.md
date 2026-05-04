@@ -37,18 +37,20 @@ Haz clic en cada módulo para abrir la presentación interactiva.
    - *Temas:* cálculo de resistencia AGMA, fallas por fatiga y picadura. [📄 PDF](/presentaciones/elementos/clase4.pdf)
 
 ### Módulo 3: Cálculo por teoría de fatiga de ejes de transmisión
-<!-- 5. **[Clase 05: Diseño de ejes](/presentaciones/curso-python/clase-05.html)**
-   - *Temas:* ejes diseñados por resistencia a cargas dinámicas, criterios de falla para esfuerzos alternantes. 
+ 5. **Clase 05: Diseño de ejes**
+   - *Temas:* ejes diseñados por resistencia a cargas dinámicas, criterios de falla para esfuerzos alternantes. [📄 PDF](/presentaciones/elementos/clase5.pdf)
 
-6. **[Clase 06: Ejes contra fatiga 1 plano](/presentaciones/curso-python/clase-06.html)**
-   - *Temas:* Clases, objetos, herencia, polimorfismo.
+6. **Clase 06: Ejes contra fatiga 1 y 2 planos**
+   - *Temas:* Criterios para análisis de ejes y procedimientos.
+[📄 PDF](/presentaciones/elementos/clase6.pdf)
 
+<!-- 
 7. **[Clase 07: Manejo de Errores y Archivos](/presentaciones/curso-python/clase-07.html)**
    - *Temas:* Try/except, lectura/escritura de archivos. -->
 
 ### Módulo 4: Transmisiones mecánicas con elementos flexibles (correas y cadenas)
 
-### Módulo 5: Selección de frenos, embragues, acoples
+### Módulo 5: Selección de frenos, embragues, acoples -->
 
 ---
 
