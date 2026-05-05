@@ -33,14 +33,14 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 3. **[Clase 03: Cálculo de resistencia Lewis](/presentaciones/elementos/clase3.html)**
    - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga. [📄 PDF](/presentaciones/elementos/clase3.pdf)
 
-4. **Clase 04: Cálculo resistencia AGMA**
+4. **[Clase 04: Cálculo resistencia AGMA](/presentaciones/elementos/clase4.html)**
    - *Temas:* cálculo de resistencia AGMA, fallas por fatiga y picadura. [📄 PDF](/presentaciones/elementos/clase4.pdf)
 
 ### Módulo 3: Cálculo por teoría de fatiga de ejes de transmisión
- 5. **Clase 05: Diseño de ejes**
+ 5. **[Clase 05: Diseño de ejes](/presentaciones/elementos/clase5.html)**
    - *Temas:* ejes diseñados por resistencia a cargas dinámicas, criterios de falla para esfuerzos alternantes. [📄 PDF](/presentaciones/elementos/clase5.pdf)
 
-6. **Clase 06: Ejes contra fatiga 1 y 2 planos**
+6. **[Clase 06: Ejes contra fatiga 1 y 2 planos](/presentaciones/elementos/clase6.html)** 
    - *Temas:* Criterios para análisis de ejes y procedimientos.
 [📄 PDF](/presentaciones/elementos/clase6.pdf)
 
@@ -50,7 +50,7 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 
 ### Módulo 4: Transmisiones mecánicas con elementos flexibles (correas y cadenas)
 
-### Módulo 5: Selección de frenos, embragues, acoples -->
+### Módulo 5: Selección de frenos, embragues, acoples
 
 ---
 
