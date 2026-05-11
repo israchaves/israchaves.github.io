@@ -44,9 +44,10 @@ Haz clic en cada módulo para abrir la presentación interactiva.
    - *Temas:* Criterios para análisis de ejes y procedimientos.
 [📄 PDF](/presentaciones/elementos/clase6.pdf)
 
-<!-- 
-7. **[Clase 07: Manejo de Errores y Archivos](/presentaciones/curso-python/clase-07.html)**
-   - *Temas:* Try/except, lectura/escritura de archivos. -->
+
+7. **[Clase 07: Acoples para ejes](/presentaciones/elementos/clase7.html)**
+  - *Temas:* Tipos de acoples y sus aplicaciones.
+[📄 PDF](/presentaciones/elementos/clase7.pdf)
 
 ### Módulo 4: Transmisiones mecánicas con elementos flexibles (correas y cadenas)
 
