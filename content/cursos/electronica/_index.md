@@ -29,8 +29,12 @@ Haz clic en cada módulo para abrir la presentación interactiva.
    - *Temas:* diodos, características y aplicaciones.
 3. **[Clase 03: BJT](/presentaciones/electronica/clase_BJT.html)**
    - *Temas:* BJT, características y aplicaciones. [📄 PDF](/presentaciones/electronica/clase04_electro_polarizacion_BJT.pdf)
-3. **Clase 04: Amplificadores operacionales**
+4. **Clase 04: Amplificadores operacionales**
    - *Temas:* amplificadores, circuitos comparadores y sumadores [📄 PDF](/presentaciones/electronica/clase5_electro_amp_op.pdf)
+5. **[Clase 05: Osciladores](/presentaciones/electronica/clase6_electronica_u4_osciladores.html)**
+   - *Temas:* multivibradoress [📄 PDF](/presentaciones/electronica/clase6_electronica_u4_osciladores.pdf)
+6. **[Clase PID](/presentaciones/electronica/clase_electronica_PID.html)**
+   - *Temas:* multivibradoress [📄 PDF](/presentaciones/electronica/clase_electronica_PID.pdf)
 
  <!-- Las clases siguientes las agrego luego    -->
 <!-- 3. **[Clase 03: Estructuras de Control](/presentaciones/curso-python/clase-03.html)**
