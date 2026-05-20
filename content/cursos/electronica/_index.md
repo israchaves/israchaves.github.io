@@ -34,7 +34,9 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 5. **[Clase 05: Osciladores](/presentaciones/electronica/clase6_electronica_u4_osciladores.html)**
    - *Temas:* multivibradoress [📄 PDF](/presentaciones/electronica/clase6_electronica_u4_osciladores.pdf)
 6. **[Clase PID](/presentaciones/electronica/clase_electronica_PID.html)**
-   - *Temas:* multivibradoress [📄 PDF](/presentaciones/electronica/clase_electronica_PID.pdf)
+   - *Temas:* multivibradores [📄 PDF](/presentaciones/electronica/clase_electronica_PID.pdf)
+7. **[Clase 06: Transistores de potencia](/presentaciones/electronica/clase7_electronica_u5_transistores_potencia.html)**
+   - *Temas:* SCR, DIAC y TRIAC [📄 PDF](/presentaciones/electronica/clase7_electronica_u5_transistores_potencia.pdf)
 
  <!-- Las clases siguientes las agrego luego    -->
 <!-- 3. **[Clase 03: Estructuras de Control](/presentaciones/curso-python/clase-03.html)**
