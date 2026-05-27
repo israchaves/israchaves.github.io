@@ -38,13 +38,13 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 7. **[Clase 06: Transistores de potencia](/presentaciones/electronica/clase7_electronica_u5_transistores_potencia.html)**
    - *Temas:* SCR, DIAC y TRIAC [📄 PDF](/presentaciones/electronica/clase7_electronica_u5_transistores_potencia.pdf)
 
- <!-- Las clases siguientes las agrego luego    -->
+### Módulo 2: Electrónica Digital
+4. **[Clase 07: Electrónica Digital](/presentaciones/electronica/clase8_electronica_u6_digitales.html)**
+   - *Temas:* Sistema binario, valores digitales [📄 PDF](/presentaciones/electronica/clase8_electronica_u6_digitales.pdf)
 <!-- 3. **[Clase 03: Estructuras de Control](/presentaciones/curso-python/clase-03.html)**
    - *Temas:* Condicionales (if/else), bucles (for/while).
 
-### Módulo 2: Intermedio
-4. **[Clase 04: Funciones y Modularidad](/presentaciones/curso-python/clase-04.html)**
-   - *Temas:* Definición de funciones, parámetros, retorno de valores.
+
 5. **[Clase 05: Estructuras de Datos](/presentaciones/curso-python/clase-05.html)**
    - *Temas:* Listas, tuplas, diccionarios, sets.
 
