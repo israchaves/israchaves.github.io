@@ -51,9 +51,18 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 
 ### Módulo 4: Transmisiones mecánicas con elementos flexibles (correas y cadenas)
 
+7. **[Clase 08: Correas y bandas](/presentaciones/elementos/clase8.html)**
+  - *Temas:* Tipos de bandas, consideraciones y aplicaciones.
+[📄 PDF](/presentaciones/elementos/clase8.pdf)
+
 ### Módulo 5: Selección de frenos, embragues, acoples
 
 ---
+
+### Análisis de elementos finitos (FEA)
+**[Principios de FEA para diseño de máquinas](/presentaciones/elementos/claseFEA_ANSYS.html)**
+  - *Temas:* FEA, software y consideraciones para estudiantes.
+[📄 PDF](/presentaciones/elementos/claseFEA_ANSYS.pdf)
 
 ## 💡 ¿Cómo usar este curso?
 1. Abre cada clase en orden secuencial.
