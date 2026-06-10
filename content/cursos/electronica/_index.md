@@ -43,18 +43,11 @@ Haz clic en cada módulo para abrir la presentación interactiva.
    - *Temas:* Sistema binario, valores digitales [📄 PDF](/presentaciones/electronica/clase8_electronica_u6_digitales.pdf)
 9. **[Clase 08: Compuertas Lógicas](/presentaciones/electronica/clase9_electronica_u7_compuertas_logicas.html)**
    - *Temas:* Compuertas lógicas, mapas de Karnaugh [📄 PDF](/presentaciones/electronica/clase9_electronica_u7_compuertas_logicas.pdf)   
-<!-- 3. **[Clase 03: Estructuras de Control](/presentaciones/curso-python/clase-03.html)**
-   - *Temas:* Condicionales (if/else), bucles (for/while).
 
+### Módulo 3: Automatización
+10. **[Clase 09: PLC](/presentaciones/electronica/clase10_electronica_u8_automatizacion.html)**
+   - *Temas:* Ladder, historia, ventajas y desventajas [📄 PDF](/presentaciones/electronica/clase10_electronica_u8_automatizacion.pdf)   
 
-5. **[Clase 05: Estructuras de Datos](/presentaciones/curso-python/clase-05.html)**
-   - *Temas:* Listas, tuplas, diccionarios, sets.
-
-### Módulo 3: Avanzado
-6. **[Clase 06: Programación Orientada a Objetos](/presentaciones/curso-python/clase-06.html)**
-   - *Temas:* Clases, objetos, herencia, polimorfismo.
-7. **[Clase 07: Manejo de Errores y Archivos](/presentaciones/curso-python/clase-07.html)**
-   - *Temas:* Try/except, lectura/escritura de archivos. -->
 
 
 
