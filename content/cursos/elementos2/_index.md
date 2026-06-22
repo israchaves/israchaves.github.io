@@ -59,6 +59,12 @@ Haz clic en cada módulo para abrir la presentación interactiva.
   - *Temas:* Tipos de cadenas y selección.
 [📄 PDF](/presentaciones/elementos/clase9.pdf)
 
+### Módulo 5: Selección de frenos, embragues, acoples
+
+10. **[Clase 10: Frenos y embragues](/presentaciones/elementos/clase10.html)**
+  - *Temas:* Frenos y embragues de uso comercial
+[📄 PDF](/presentaciones/elementos/clase10.pdf)
+
 ---
 
 ### Análisis de elementos finitos (FEA)
@@ -66,7 +72,11 @@ Haz clic en cada módulo para abrir la presentación interactiva.
   - *Temas:* FEA, software y consideraciones para estudiantes.
 [📄 PDF](/presentaciones/elementos/claseFEA_ANSYS.pdf)
 
-<!-- ### Módulo 5: Selección de frenos, embragues, acoples
+**[Buenas prácticas para simulaciones FEA](/presentaciones/elementos/buenas_practicas_FEA.html)**
+  - *Temas:* Recomendaciones y buenas prácticas
+[📄 PDF](/presentaciones/elementos/buenas_practicas_FEA.pdf)
+
+
 
 
 
