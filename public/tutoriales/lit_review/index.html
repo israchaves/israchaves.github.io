@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>📚 Cómo realizar una Revisión de Literatura Sistemática (SLR) | Sitio personal de Israel Chaves Arbaiza</title>
+<meta name="keywords" content="investigación, metodología, académico, bitácora, tesis">
+<meta name="description" content="Guía paso a paso para planificar, ejecutar y documentar una Revisión de Literatura Sistemática, o también llamada Bitácora de Investigación. Incluye herramientas, criterios de búsqueda y plantilla.">
+<meta name="author" content="Israel Chaves A.">
+<link rel="canonical" href="http://localhost:1313/tutoriales/lit_review/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a1a1b118b3e83435265dc39da18e54244bcc0e5481d1d034aadc0c899c51e15c.css" integrity="sha256-oaGxGLPoNDUmXcOdoY5UJEvMDlSB0dA0qtwMiZxR4Vw=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tutoriales/lit_review/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Sitio personal de Israel Chaves Arbaiza (Alt + H)">Sitio personal de Israel Chaves Arbaiza</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/docs/cv-israel-chaves-academic.pdf" title="CV">
+                    <span>CV</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/cursos/" title="Cursos">
+                    <span>Cursos</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/publicaciones/" title="Publicaciones">
+                    <span>Publicaciones</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/reserva/" title="Reserva">
+                    <span>Reserva de consulta</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tutoriales/" title="Tutoriales">
+                    <span>Tutoriales</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      📚 Cómo realizar una Revisión de Literatura Sistemática (SLR)
+    </h1>
+    <div class="post-description">
+      Guía paso a paso para planificar, ejecutar y documentar una Revisión de Literatura Sistemática, o también llamada Bitácora de Investigación. Incluye herramientas, criterios de búsqueda y plantilla.
+    </div>
+    <div class="post-meta">
+
+<span title='2026-08-26 00:00:00 +0000 UTC'>26 de agosto de 2026</span>&nbsp;·&nbsp;<span>Israel Chaves A.</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><h1 id="-cómo-realizar-una-revisión-de-literatura-sistemática-slr">📚 Cómo realizar una Revisión de Literatura Sistemática (SLR)<a hidden class="anchor" aria-hidden="true" href="#-cómo-realizar-una-revisión-de-literatura-sistemática-slr">#</a></h1>
+<p>Una revisión de literatura sistemática es un método de investigación que busca ser imparcial, y enfocado en investigaciones detalladas acerca de un tema. Suele ser un capítulo completo en una tesis o trabajo de graduación, o inclusive un <em>paper</em> en sí mismo; ya que busca presentar el conocimiento existente relacionado a un tema, siguiendo un protocolo riguroso y repetible.</p>
+<p>En este tutorial introductorio, se brindan recomendaciones y una guía con herramientas, para realizar la bitácora de investigación.</p>
+<blockquote>
+<p><strong>💡 ¿Por qué es importante?</strong>
+Una SLR bien ejecutada, permite identificar vacíos en el conocimiento, evitar duplicar esfuerzos y establecer el &ldquo;estado del arte&rdquo; alrededor de un tema, incluyendo los fundamentos y desaciertos.</p>
+</blockquote>
+<hr>
+<h2 id="-índice-de-contenidos">🗺️ Índice de Contenidos<a hidden class="anchor" aria-hidden="true" href="#-índice-de-contenidos">#</a></h2>
+<ol>
+<li>Conceptos y definiciones relevantes</li>
+<li>¿Dónde buscar?</li>
+<li>¿Cómo buscar?</li>
+<li>Recopilación de datos</li>
+<li>Herramientas Recomendadas</li>
+<li>Plantilla para la bitacora de investigación</li>
+</ol>
+<hr>
+<h2 id="conceptos-definiciones">Conceptos y definiciones relevantes 📝<a hidden class="anchor" aria-hidden="true" href="#conceptos-definiciones">#</a></h2>
+<ul>
+<li><strong>Journal (Revista científica):</strong> Publicación periódica (puede ser mensual, trimestral, bianual, etc.) que se enfoca en un área del conocimiento específica. Es el &ldquo;sitio&rdquo; de mayor prestigio académico donde se puede publicar.  Presenta <strong>artículos científicos (papers)</strong>, y tiene <strong>revisión por pares (peer review)</strong> lenta (de 6 a 18 meses) y estricta. Ayuda para tener el &ldquo;Estado del Arte&rdquo; consolidado del campo. Ejemplos:  <em>IEEE Transactions on Robotics, Journal of Mechanical Design, Nature</em>.</li>
+<li><strong>Conference Proceedings (Actas de conferencias):</strong> Es la colección de trabajos presentados en un congreso o una conferencia académica específica. En Ingeniería y Computación tiene tanto o más prestigio que un Journal, ya que la tecnología avanza tan rápido que en ocasiones esperar 1 año para publicar en una revista es mucho tiempo. Tiene un <strong>proceso de revisión más rápido</strong> (entre 2 y 4 meses), y es vital para encontrar <strong>lo más reciente</strong> de un tema. Ejemplos: <em>ICRA (International Conference on Robotics and Automation), IROS, CVPR (Visión por computadora)</em>.</li>
+<li><strong>Catálogo:</strong> Es una lista de productos, datos o servicios, usualmente con fines comerciales, o como referencia técnica. No hay revisión por pares, suelen ser de fabricantes o bibliotecas. Contienen dimensiones, precios, hojas de datos, etc. Se recomienda analizarlos para la etapa de <strong>Metodología</strong> o <strong>Diseño</strong> de un proyecto, para seleccionar componentes, no para fundamentar teoría.</li>
+<li><strong>Norma:</strong> Es un documento técnico establecido por un organismo (IEEE, ISO, ASTM) que brinda reglas, estructura y características para implementar en sus actividades. Buscan <strong>uniformidad, seguridad e interoperabilidad</strong>. Son <strong>requisitos o mejores prácticas</strong>. Ayudan a justificar decisiones, protocolos y métodos de prueba válidos a nivel industrial.</li>
+<li><strong>Handbook:</strong> Son libros altamente consultados, que junta conocimientos establecidos, fórmulas, tablas y las mejores prácticas y técnicas de un campo. Están escritos por expertos, resumen lo que otros investigaron, y son estables en el tiempo. Se utilizan para encontrar teorías base, que sirva profundizar en el trabajo. Ejemplos: <em>Springer Handbook of Robotics, Machinery&rsquo;s Handbook</em></li>
+<li><strong>Patente:</strong> Documento legal que brinda derechos exclusivos a su autor, por un tiempo limitado. Presentan gran detalle técnico, e indican innovación aplicada. Sirven para entender tendencias tecnológicas, evitar plagio legal o encontrar detalles técnicos específicos que muchas veces no se aclaran en un paper académico.</li>
+</ul>
+<p><strong>Es importante recordar que libros, noticieros, entrevistas, charlas, y videos también son referencias válidas</strong></p>
+<h2 id="donde-buscar">¿Dónde buscar? 📝<a hidden class="anchor" aria-hidden="true" href="#donde-buscar">#</a></h2>
+<p>Dependiendo del área, el tema de investigación y la intención del trabajo, es importante conocer fuentes recomendadas.</p>
+<ul>
+<li><a href="https://scholar.google.com">Google Scholar:</a> Altamente recomendado <strong>para iniciar</strong>, busca en repositorios y bases de datos de diversos campos. Permite visualizar la cantidad de citaciones que ha recibido un artículo, luego de publicado.</li>
+</ul>
+<h3 id="por-suscripción-personal-o-de-la-universidad">Por suscripción (personal o de la universidad):<a hidden class="anchor" aria-hidden="true" href="#por-suscripción-personal-o-de-la-universidad">#</a></h3>
+<ul>
+<li><a href="https://www.scopus.com/">Scopus / Web of Science:</a> Son bases de datos multidisciplinarias que indexan lo mejor de la mayoría de bases de datos. Semejante a Google Scholar, se recomienda para una búsqueda inicial exhaustiva y para verificar el impacto de un artículo.</li>
+<li><a href="https://ieeexplore.ieee.org">IEEE Xplore:</a> Presenta el trabajo de profesionales y miembros  de la IEEE (Institute of Electrical and Electronics Engineers).</li>
+<li><a href="https://asmedigitalcollection.asme.org">ASME Digital Collection:</a> Es la referencia en línea, del contenido literario de Journals, Conference Proceedings y libros de ASME (American Society of Mechanical Engineers). Es la fuente más importante para ingeniería mecánica.</li>
+<li><a href="https://link.springer.com">Springer Nature Link:</a> Excelente para libros de texto, y compendios de artículos en temas muy diversos.</li>
+<li><a href="https://app.knovel.com/">Knovel:</a> Base de datos de propiedades de materiales, ecuaciones, normas y gráficos interactivos. Herramientas útiles para diseño.</li>
+<li><a href="https://www.elsevier.com/products/sciencedirect">Science Direct:</a> Cuenta con revistas y libros de muchas áreas y de temas muy diversos. Ejemplo de revista: <em>Mechanism and Machine Theory, Robotics and Computer-Integrated Manufacturing</em></li>
+<li><a href="https://dl.acm.org">ACM Digital Library:</a> Es la fuente principal de referencias para Ciencias de la Computación.</li>
+</ul>
+<h3 id="acceso-abierto-y-gratuito">Acceso abierto y gratuito:<a hidden class="anchor" aria-hidden="true" href="#acceso-abierto-y-gratuito">#</a></h3>
+<ul>
+<li><a href="https://arxiv.org">arXiv:</a> Tiene preimpresiones de alta calidad, antes de su revisión por pares.</li>
+<li><a href="https://doaj.org">DOAJ:</a> <em>Directory of Open Access Journals</em>, cuenta con revistas revisadas por pares pero de acceso libre.</li>
+<li><a href="https://ntrs.nasa.gov">NASA Technical Reports Server NTRS:</a> Incluye información de revistas, artículos, patentes e informes técnicos históricos y actuales acerca de tecnología aeroespacial, fluidos y materiales creados o utilizados por la NASA.</li>
+</ul>
+<hr>
+<h2 id="como-buscar">¿Cómo buscar? 📝<a hidden class="anchor" aria-hidden="true" href="#como-buscar">#</a></h2>
+<p>Al realizar una revisión de literatura, se busca ampliar el espectro de conocimiento en relación al tema, investigando referencias de manera neutral, para recopilar información de diversos orígenes y tipos, y sistemáticamente, para profundizar, cuando sea necesario profundizar. Para una SLR, se recomienda centrarse en cómo buscar, en lugar de cuánto buscar.</p>
+<p>A continuación, muestro algunas recomendaciones para lograr esto, mediante un ejemplo:</p>
+<p><em>Supongamos que como tema de investigación, nos interesa: <strong>Robots para transportar material en un taller mecánico</strong></em></p>
+<ol>
+<li>El idioma en que se realice la pregunta, la búsqueda, generalmente depende de la intención de mi investigación. Usualmente, se investiga en inglés, por ser el idioma en el que más fuentes de datos han basado sus trabajos, para asegurar actualidad e internacionalidad en los resultados. Sin embargo, si mi intención es basarme en una región o país específico, como base de estudio o bien como población objetivo, es recomendable investigar con detalle con fuentes en el idioma de la zona.</li>
+</ol>
+<p><strong>Del ejemplo:</strong> <em>Utilizaremos el tema como: <strong>Robots for material transportation on mechanical workshops</strong></em></p>
+<ol start="2">
+<li>Para realizar la(s) primera(s) búsqueda(s), se recomienda <strong>NO</strong> leer con todo detalle cada referencia que sea un resultado. Por el contrario, se recomienda hacer una &ldquo;revisión simple&rdquo; del trabajo en este orden: <strong>título, abstract (resumen) e imágenes</strong>. De esa manera, se facilita encontrar esos artículos que <strong>llaman nuestra atención</strong>, que <strong>presentan resultados útiles</strong> (no necesariamente favorables), y que nos provoquen la curiosidad de leerlos en su totalidad. Si esos 3 elementos no provocan ganas de leer el trabajo, posiblemente no sea tan relevante.</li>
+</ol>
+<p>Este método facilita el <strong>arranque</strong> de la investigación, para obtener <strong>keywords</strong> y familiarizarse con el tema. Inclusive, puede llevar a encontrar artículos altamente relevantes (<strong>origin paper</strong>).
+<em>Cabe aclarar que existen muchas recomendaciones y técnicas para esa revisión simple, y cada profesor/investigador puede dar recomendaciones distintas, dependiendo de su estilo</em>.</p>
+<ol start="3">
+<li>Dividir el tema o la pregunta de investigación, en componentes, en conceptos; y buscar sinónimos y conceptos relacionados a cada uno de esos. Esto ayuda a generar distintas variantes de la fórmula de búsqueda.</li>
+</ol>
+<p><strong>Del ejemplo:</strong> <em>Tomamos las palabras y conceptos y buscamos sinónimos o conceptos relacionados</em>
+<em>Para Robot, podemos pensar en autonomous vehicle, mobile robot, system</em>
+<em>Para mechanical workshops, pueden ser relevantes los conceptos de warehouse system, industrial plant</em></p>
+<ol start="4">
+<li>Implementar la búsqueda avanzada o también llamada <strong>búsqueda booleana</strong>, creando <strong>fórmulas de búsqueda</strong> con operadores lógicos <code>AND</code>, para incluir obligatoriamente los términos, <code>OR</code> para dar opciones, pensado en sinónimos o conceptos conectados, y <code>NOT</code> para descartar resultados que no están dentro del enfoque del estudio. Esto se recomienda luego de encontrar un trabajo altamente relevante (<strong>origin paper</strong>)</li>
+</ol>
+<p><strong>Del ejemplo:</strong> <em>Para crear una fórmula de búsqueda del tema elegido y con los conceptos relacionados, una primera fórmula puede ser</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>&#39;(&#34;robot&#34; OR &#34;autonomous vehicle&#34;) AND (&#34;mechanical workshop&#34; OR &#34;warehouse system&#34;) AND &#34;material transportation&#34; NOT (&#34;aerial robot&#34; OR &#34;drone&#34;)&#39;
+</span></span></code></pre></div><p><em>Con esta fórmula, se está indicando que se aceptan resultados que incluyan robot o autonomous vehicle, que incluyan mechanical workshop o warehouse system y material transportation; pero que no incluyan aerial robot ni drone</em>
+<em>Así, se busca filtrar los resultados para enfocar más la búsqueda</em></p>
+<ol start="5">
+<li>Realizar <strong>snowballing</strong>, una técnica sistemática de búsqueda para identificar artículos relevantes, y evitar pasarlos por alto en mi revisión de literatura. Se aplica en un *<em>origin paper</em> que ya se tenga identificado. Sirve para trazar una línea de tiempo del tema de investigación. Hay 2 tipos:</li>
+</ol>
+<ul>
+<li><strong>Backward snowballing:</strong> Consiste en examinar la lista de referencias bibliográficas indicadas en el <strong>origin paper</strong>. Permite entender el pasado del tema con base en ese artículo y sus bases.</li>
+<li><strong>Forward snowballing:</strong> Se revisan con detalle las citaciones que tenga el <strong>origin paper</strong>, es decir, se busca quién ha citado a mi <strong>origin paper</strong>. Esto brinda una idea de cómo se ha continuado con lo propuesto y trabajado en ese artículo.</li>
+</ul>
+<h2 id="recopilacion-datos">Recopilación de datos 📝<a hidden class="anchor" aria-hidden="true" href="#recopilacion-datos">#</a></h2>
+<p>El proceso de almacenar y tener correctamente identificada la información de los artículos encontrados, es igual o hasta más importante que el proceso de búsqueda como tal. La recomendación principal es mantener una bitácora de investigación, que permita revisar fácil y rápidamente la información de las diferentes referencias encontradas. Algunos consejos son:</p>
+<ul>
+<li><strong>Crear una matriz de literatura:</strong> Tener una tabla estructurada para resumir cada artículo. Esta matriz se conforma con una fila por cada referencia encontrada, y donde las columnas corresponden a la información de cada paper. Los títulos e información de las columnas puede variar dependiendo de la intención del trabajo y el expertiz, aquí hay algunas recomendaciones de títulos para las columnas:
+<ul>
+<li><strong>Título del trabajo</strong></li>
+<li><strong>Fecha de consulta:</strong> La fecha en que el artículo se almacenó correctamente como parte de su revisión de literatura</li>
+<li><strong>Enlace o DOI:</strong> Alguna manera de encontrar el trabajo en la base de datos o repositorio original.</li>
+<li><strong>Fórmula de búsqueda que arrojó ese resultado:</strong> Este punto es clave, ya que al almacenar tanto el resultado como la pregunta que nos llevó a ese resultado, estamos dando tanta importancia a los trabajos encontrados, como a las preguntas que permitieron llegar allí.</li>
+<li><strong>Resumen de la referencia:</strong> No es el abstract, es un resumen con ideas o párrafos, redactado con lo que se entendió del artículo, lo que parece relevante, las preguntas que deja el trabajo, etc.</li>
+<li><strong>Palabras clave:</strong> Esto ayuda a formular nuevas preguntas para futuras búsquedas, y ayuda a ampliar el espectro acerca del tema.</li>
+<li><strong>Confiabilidad y relevancia:</strong> Se indica por números o colores. Por ejemplo:
+<ul>
+<li><em>Verde</em> para los <strong>origin paper</strong>, trabajos con muy alta relevancia.</li>
+<li><em>Amarillo</em> para las referencias relevantes, y confiables, pero que no llegan a ser de tanta relevancia como un <strong>origin paper</strong></li>
+<li><em>Rojo</em> para los resultados que luego de leerlos, no son tan relevantes, presentan vacíos de conocimiento, errores de metodología, o trabajos que no nos aportan mucho a la SRL. Sin embargo, es importante identificar estos trabajos, para evitar profundizar a raíz de ellos, y evitar técnicas, errores o faltantes en el tema.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="herramientas-recomendadas">Herramientas recomendadas 📝<a hidden class="anchor" aria-hidden="true" href="#herramientas-recomendadas">#</a></h2>
+<ul>
+<li><strong>Para gestionar referencias</strong>, se recomiendan software como <em>Zotero, Mendeley, EndNote, RefWorks, o Paperpile</em>, que permiten recopilar la <em>metadata</em> de cada artículo. Se aconseja organizar los trabajos por carpetas, y con etiquetas para facilitar la gestión de referencias.</li>
+<li><strong>Para la matriz de literatura</strong>, se pueden utilizar <em>Excel, Word, Notion</em>, o cualquier bloc de notas, o sistema para organizar la información en una tabla. Algunas personas utilizan los software como Zotero o Mendeley para agregar sus notas y mantener la bitácora de investigación.</li>
+<li><strong>Para el snowballing</strong>, y para profundizar en la búsqueda, se recomiendan herramientas como <em>Litmaps, Research Rabbit, Connected Papers, SciteAI, Inciteful, etc</em>. Estas opciones permiten visualizar fácilmente la relación entre distintos artículos, mediante grafos.</li>
+<li><strong>Notas inteligentes</strong>, se refiere a más que una herramienta, una técnica; se trata de tomar apuntes, y recopilar información con cada artículo leído, para hacer una lectura con objetivo, y evitar leer simplemente por cumplir. Para esto, es importante plantear preguntas que queramos contestar a la hora de revisar una referencia:
+<ul>
+<li>¿Cuál es el problema que se atiende en este trabajo? (alcance y limitaciones)</li>
+<li>¿Cómo lo abordaron? (metodología)</li>
+<li>¿Qué resultados obtuvieron? (resultados y conclusiones)</li>
+<li>¿Cómo se relaciona con mi SRL? (permite asignar un color Verde, Amarillo o Rojo)</li>
+<li>¿Qué preguntas me genera este trabajo? (para pronfundizar y dar continuación a la búsqueda)</li>
+</ul>
+</li>
+</ul>
+<h2 id="plantilla-bitacora"> Plantilla para la bitacora de investigación<a hidden class="anchor" aria-hidden="true" href="#plantilla-bitacora">#</a></h2>
+<p><a href="/docs/Plantilla_Bitacora_Investigacion.xlsx">Plantilla en Excel</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/investigaci%C3%B3n/">Investigación</a></li>
+      <li><a href="http://localhost:1313/tags/metodolog%C3%ADa/">Metodología</a></li>
+      <li><a href="http://localhost:1313/tags/acad%C3%A9mico/">Académico</a></li>
+      <li><a href="http://localhost:1313/tags/bit%C3%A1cora/">Bitácora</a></li>
+      <li><a href="http://localhost:1313/tags/tesis/">Tesis</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">Sitio personal de Israel Chaves Arbaiza</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

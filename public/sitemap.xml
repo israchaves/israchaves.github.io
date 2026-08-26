@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tutoriales/lit_review/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/acad%C3%A9mico/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bit%C3%A1cora/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/investigaci%C3%B3n/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/metodolog%C3%ADa/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/tesis/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutoriales/</loc>
+    <lastmod>2026-08-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/cursos/electronica/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,12 +51,6 @@
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/programacion/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/publicaciones/jornadas_2021/</loc>
@@ -59,7 +80,5 @@
     <loc>http://localhost:1313/reserva/</loc>
   </url><url>
     <loc>http://localhost:1313/about/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tutoriales/</loc>
   </url>
 </urlset>

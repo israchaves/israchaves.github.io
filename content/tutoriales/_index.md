@@ -13,6 +13,7 @@ Esta sección está en constante cambio, agregando tutoriales útiles en áreas 
 
 A continuación se detallan los tutoriales disponibles:
 
+
 <!-- 
   NOTA: No necesitas escribir la lista de cursos manualmente.
   Hugo listará automáticamente las subpáginas (los cursos que creaste con el script)

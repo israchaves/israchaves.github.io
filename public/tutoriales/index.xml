@@ -6,6 +6,14 @@
     <description>Recent content in Tutoriales on Sitio personal de Israel Chaves Arbaiza</description>
     <generator>Hugo</generator>
     <language>es-es</language>
+    <lastBuildDate>Wed, 26 Aug 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tutoriales/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>📚 Cómo realizar una Revisión de Literatura Sistemática (SLR)</title>
+      <link>http://localhost:1313/tutoriales/lit_review/</link>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutoriales/lit_review/</guid>
+      <description>Guía paso a paso para planificar, ejecutar y documentar una Revisión de Literatura Sistemática, o también llamada Bitácora de Investigación. Incluye herramientas, criterios de búsqueda y plantilla.</description>
+    </item>
   </channel>
 </rss>
