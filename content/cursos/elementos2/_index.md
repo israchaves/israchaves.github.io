@@ -26,10 +26,10 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 1. **[Clase 01: Engranes](https://view.genially.com/69c13bd2f313adcf289a78d1)**
    - *Temas:* tipos de engranes, aplicaciones y su manufactura.
 
-<!-- 2. **[Clase 02: Transmisiones planetarias](/presentaciones/elementos/clase2.html)**
-   - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. Perfil envolvente. [📄 PDF](/presentaciones/elementos/clase2.pdf)
+2. **[Clase 02: Transmisiones planetarias](/presentaciones/elementos/clase2.html)**
+   - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. <!--  [📄 PDF](/presentaciones/elementos/clase2.pdf)
 
- ### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
+ <!-- ### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
 3. **[Clase 03: Cálculo de resistencia Lewis](/presentaciones/elementos/clase3.html)**
    - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga. [📄 PDF](/presentaciones/elementos/clase3.pdf)
 
