@@ -26,8 +26,9 @@ En este tutorial introductorio, se brindan recomendaciones y una guía con herra
 2. ¿Dónde buscar?
 3. ¿Cómo buscar?
 4. Recopilación de datos
-5. Herramientas Recomendadas
-6. Plantilla para la bitacora de investigación
+5. Herramientas recomendadas
+6. Video de ejemplo
+7. Plantilla para la bitácora de investigación
 
 ---
 <h2 id="conceptos-definiciones">Conceptos y definiciones relevantes 📝</h2>
@@ -132,7 +133,9 @@ El proceso de almacenar y tener correctamente identificada la información de lo
   * ¿Cómo se relaciona con mi SRL? (permite asignar un color Verde, Amarillo o Rojo)
   * ¿Qué preguntas me genera este trabajo? (para pronfundizar y dar continuación a la búsqueda)
 
+<h2 id="video-ejemplo"> Video de ejemplo </h2>
 
+[Ver video de ejemplo acá](https://www.youtube.com/watch?v=M7PdZ1LLLnw)
 
 
 
