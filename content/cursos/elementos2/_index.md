@@ -29,11 +29,11 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 2. **[Clase 02: Transmisiones planetarias](/presentaciones/elementos/clase2.html)**
    - *Temas:* transmisiones paralelas, y de ejes paralelos. Geometría de un engrane. <!--  [📄 PDF](/presentaciones/elementos/clase2.pdf)
 
- <!-- ### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
+### Módulo 2: Cálculo de resistencia de engranes rectos y helicoidales
 3. **[Clase 03: Cálculo de resistencia Lewis](/presentaciones/elementos/clase3.html)**
    - *Temas:* punto de contacto, cálculo de resistencia Lewis, falla por fatiga. [📄 PDF](/presentaciones/elementos/clase3.pdf)
 
-4. **[Clase 04: Cálculo resistencia AGMA](/presentaciones/elementos/clase4.html)**
+ <!-- 4. **[Clase 04: Cálculo resistencia AGMA](/presentaciones/elementos/clase4.html)**
    - *Temas:* cálculo de resistencia AGMA, fallas por fatiga y picadura. [📄 PDF](/presentaciones/elementos/clase4.pdf)
 
 ### Módulo 3: Cálculo por teoría de fatiga de ejes de transmisión
