@@ -35,12 +35,12 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 
  4. **[Clase 04: Cálculo resistencia AGMA](/presentaciones/elementos/clase4.html)**
    - *Temas:* cálculo de resistencia AGMA, fallas por fatiga y picadura. [📄 PDF](/presentaciones/elementos/clase4.pdf)
- <!--
+ 
 ### Módulo 3: Cálculo por teoría de fatiga de ejes de transmisión
  5. **[Clase 05: Diseño de ejes](/presentaciones/elementos/clase5.html)**
    - *Temas:* ejes diseñados por resistencia a cargas dinámicas, criterios de falla para esfuerzos alternantes. [📄 PDF](/presentaciones/elementos/clase5.pdf)
 
-6. **[Clase 06: Ejes contra fatiga 1 y 2 planos](/presentaciones/elementos/clase6.html)** 
+<!--6. **[Clase 06: Ejes contra fatiga 1 y 2 planos](/presentaciones/elementos/clase6.html)** 
    - *Temas:* Criterios para análisis de ejes y procedimientos.
 [📄 PDF](/presentaciones/elementos/clase6.pdf)
 
