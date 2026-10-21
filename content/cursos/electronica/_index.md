@@ -40,7 +40,7 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 
 ### Módulo 2: Electrónica Digital
 8. **[Clase 07: Electrónica Digital](/presentaciones/electronica/clase8_electronica_u6_digitales.html)**
-   - *Temas:* Sistema binario, valores digitales [📄 PDF](/presentaciones/electronica/clase8_electronica_u6_digitales.pdf)
+   - *Temas:* Sistemas numéricos, valores digitales [📄 PDF](/presentaciones/electronica/clase8_electronica_u6_digitales.pdf)
 9. **[Clase 08: Compuertas Lógicas](/presentaciones/electronica/clase9_electronica_u7_compuertas_logicas.html)**
    - *Temas:* Compuertas lógicas, mapas de Karnaugh [📄 PDF](/presentaciones/electronica/clase9_electronica_u7_compuertas_logicas.pdf)   
 
