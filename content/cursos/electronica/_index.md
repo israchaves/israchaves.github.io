@@ -61,5 +61,5 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 <!-- ¿Tienes dudas? Revisa la sección de [Tutoriales](/tutoriales/) para guías paso a paso sobre los temas vistos aquí. -->
 
 
- **[Charla Adulto Mayor](/presentaciones/electronica/IA_adulto_mayor.html)**
+ <!-- **[Charla Adulto Mayor](/presentaciones/electronica/IA_adulto_mayor.html)** -->
    
