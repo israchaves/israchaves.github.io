@@ -49,7 +49,7 @@ Haz clic en cada módulo para abrir la presentación interactiva.
   - *Temas:* Tipos de acoples y sus aplicaciones.
 [📄 PDF](/presentaciones/elementos/clase7.pdf)
 
-<!--### Módulo 4: Transmisiones mecánicas con elementos flexibles (correas y cadenas)
+### Módulo 4: Transmisiones mecánicas con elementos flexibles (correas y cadenas)
 
 8. **[Clase 08: Correas y bandas](/presentaciones/elementos/clase8.html)**
   - *Temas:* Tipos de bandas, consideraciones y aplicaciones.
