@@ -67,6 +67,13 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 
 ---
 
+
+
+### Análisis de elementos finitos (FEA)
+**[Principios de GD&T](/presentaciones/elementos/claseGDT.html)**
+
+
+---
 ### Análisis de elementos finitos (FEA)
 **[Principios de FEA para diseño de máquinas](/presentaciones/elementos/claseFEA_ANSYS.html)**
   - *Temas:* FEA, software y consideraciones para estudiantes.
