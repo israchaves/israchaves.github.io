@@ -69,8 +69,8 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 
 
 
-### Análisis de elementos finitos (FEA)
-**[Principios de GD&T](/presentaciones/elementos/claseGDT.html)**
+### GD&T
+**[Principios de GD&T](/presentaciones/elementos/claseGDT.html)**[📄 PDF](/presentaciones/elementos/claseGDT.pdf)
 
 
 ---
