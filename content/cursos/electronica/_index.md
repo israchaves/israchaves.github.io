@@ -48,7 +48,8 @@ Haz clic en cada módulo para abrir la presentación interactiva.
 10. **[Clase 09: PLC](/presentaciones/electronica/clase10_electronica_u8_automatizacion.html)**
    - *Temas:* Ladder, historia, ventajas y desventajas [📄 PDF](/presentaciones/electronica/clase10_electronica_u8_automatizacion.pdf)   
 
-
+11. **[Celda Automate200](/presentaciones/electronica/celda_AutomateC.html)**
+   - *Temas:* Proceso y programación de la celda PLC del Lab de Mecatrónica[📄 PDF](/presentaciones/electronica/celda_AutomateC.pdf)   
 
 
 ---
